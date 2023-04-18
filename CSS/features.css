@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Helvetica';
+    font-style: normal;
+}
+
+.upperDiv span {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #0E508F;
+}
+
+nav {
+    background: #0E508F;
+}
+
+.active {
+    background: white;
+    color: #0E508F;
+
+}
+
+.nav-link {
+    color: white;
+}
+
+.navLogIn {
+    background: #5d86ad;
+    font-weight: 500;
+    font-size: 1.3vw;
+    color: white;
+    text-align: center;
+}
+
+.navAccount {
+    background: #90DD01;
+    font-weight: 500;
+    font-size: 1.3vw;
+    color: white;
+    text-align: center;
+}
+
+.headerFeatures h1 {
+    font-weight: 700;
+    font-size: 60px;
+    background: linear-gradient(91.76deg, #0E508F 3.27%, #A7EB2B 142.93%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.headerFeatures p {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(14, 80, 143, 0.41);
+}
+
+.boxWriting h1 {
+    font-weight: 700;
+    font-size: 37px;
+    color: #0E508F;
+}
+
+.boxWriting p {
+    font-weight: 400;
+    font-size: 17px;  
+    letter-spacing: 0.03em;    
+    color: #14416E;
+}
+
+.boxInfoImg {
+    background: rgba(14, 80, 143, 0.09);
+}
+
+.innerBox img {
+    width: 20%;
+}
+
+.innerBox h4 {
+    font-weight: 700;
+    font-size: 1.4vw;
+    letter-spacing: 0.03em;
+    color: #0E508F;
+}
+
+.innerBox p {
+    font-weight: 400;
+    font-size: 1.1vw;
+    letter-spacing: 0.03em;
+    color: #0E508F;
+}
+.footer {
+    background: #0E508F;
+}
+
+.footerIcon {
+    color: white;
+}
+
+.footerIcon i {
+    font-size: 2vw;
+}
+
+.download h1 {
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.download p {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footerInfo{
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/*  ############################# MOBILE ########################### */
+@media only screen and (max-width: 767px) {
+    .upperDivSpan {
+        display: none !important;
+    }
+
+    .upperDiv {
+        justify-content: center !important;
+    }
+
+    .navLogIn {
+        font-size: 2.5vw;
+        color: white;
+        text-align: center;
+    }
+
+    .navAccount {
+        font-size: 2.5vw;
+        color: white;
+        text-align: center;
+    }
+}

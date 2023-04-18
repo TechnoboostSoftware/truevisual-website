@@ -1,0 +1,241 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Helvetica';
+    font-style: normal;
+}
+
+.upperDiv span {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #0E508F;
+}
+
+nav {
+    background: #0E508F;
+}
+
+.active {
+    background: white;
+    color: #0E508F;
+
+}
+
+.nav-link {
+    color: white;
+}
+
+.navLogIn {
+    background: #5d86ad;
+    font-weight: 500;
+    font-size: 1.3vw;
+    color: white;
+    text-align: center;
+}
+
+.navAccount {
+    background: #90DD01;
+    font-weight: 500;
+    font-size: 1.3vw;
+    color: white;
+    text-align: center;
+}
+
+.mainContent h1 {
+    font-weight: 700;
+    font-size: 5vw;
+    color: #0E508F;
+}
+
+.green {
+    color: #90DD01;
+}
+
+.mainContent p {
+    font-weight: 400;
+    font-size: 1.5vw;
+    letter-spacing: 0.03em;
+    color: #0E508F;
+}
+
+.people {
+    width: 100%;
+}
+
+.mainBtn-1 {
+    background: linear-gradient(98.06deg, #0E508F 27.69%, #0E508F 111.09%);
+
+}
+
+.mainBtn-2 {
+    background: rgba(14, 80, 143, 0.07);
+}
+
+.mainBtn-1 span {
+    font-weight: 700;
+    font-size: 1.3vw;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.mainBtn-2 span {
+    font-weight: 700;
+    font-size: 1.3vw;
+    text-align: center;
+    color: #0E508F;
+}
+
+.story {
+    background: rgba(14, 80, 143, 0.09);
+}
+
+.storyContent h3 {
+    font-weight: 700;
+    font-size: 2.5vw;
+    color: #0E508F;
+}
+
+.storyContent p {
+    font-weight: 400;
+    font-size: 1.2vw;
+    letter-spacing: 0.03em;
+    color: #14416E;
+}
+
+.storyContent h5 {
+    font-weight: 500;
+    font-size: 1.5vw;
+    letter-spacing: 0.03em;
+    color: #0E508F;
+}
+
+.requestAccount {
+    background: #0E508F;
+}
+
+.requestAccount h1 {
+    font-weight: 700;
+    font-size: 3vw;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.requestAccount p {
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+}
+
+.projects h1 {
+    font-weight: 700;
+    font-size: 37px;
+    color: #0E508F;
+}
+
+.backgroundImg {
+    background-image: url("backgroundImg.svg");
+}
+
+.signInAccount {
+    background: white;
+    color: #0E508F;
+    font-weight: 700;
+    font-size: 18px;
+}
+.footer {
+    background: #0E508F;
+}
+
+.footerIcon {
+    color: white;
+}
+
+.footerIcon i {
+    font-size: 2vw;
+}
+
+.download h1 {
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.download p {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.8);
+}
+.footerInfo{
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+/*  ############################# MOBILE ########################### */
+@media only screen and (max-width: 767px) {
+    .upperDivSpan {
+        display: none !important;
+    }
+
+    .upperDiv {
+        justify-content: center !important;
+    }
+
+    .navLogIn {
+        font-size: 2.5vw;
+        color: white;
+        text-align: center;
+    }
+
+    .navAccount {
+        font-size: 2.5vw;
+        color: white;
+        text-align: center;
+    }
+
+    .mainContent {
+        padding: 5px 10px !important;
+    }
+
+    .mainContent h1 {
+        font-size: 7vw;
+        text-align: center;
+    }
+
+    .mainContent p {
+        font-size: 4vw;
+        color: #0E508F;
+        text-align: center;
+        padding: 0px 30px !important;
+    }
+
+    .mainForm {
+        justify-content: center;
+    }
+
+    .mainBtn-1 span {
+        font-size: 2.4vw;
+        padding: 10px 8px !important;
+    }
+
+    .mainBtn-2 span {
+        font-size: 2.4vw;
+        padding: 10px 8px !important;
+    }
+
+    .storyContent h3 {
+        font-size: 4.5vw;
+    }
+
+    .storyContent p {
+        font-size: 2.5vw;
+    }
+
+    .storyContent h5 {
+        font-size: 2.8vw;
+    }
+}
