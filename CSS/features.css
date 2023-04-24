@@ -45,36 +45,56 @@ nav {
 
 .headerFeatures h1 {
     font-weight: 700;
-    font-size: 60px;
+    font-size: 5vw;
     background: linear-gradient(91.76deg, #0E508F 3.27%, #A7EB2B 142.93%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    text-emphasis-color: transparent;
 }
 
 .headerFeatures p {
     font-weight: 400;
-    font-size: 18px;
-    color: rgba(14, 80, 143, 0.41);
+    font-size: 2vw;
 }
-
-.boxWriting h1 {
-    font-weight: 700;
-    font-size: 37px;
+.headingSpan-1{
+    color: rgba(14, 80, 143, 0.41);;
+}
+.headingSpan-2{
     color: #0E508F;
 }
-
-.boxWriting p {
-    font-weight: 400;
-    font-size: 17px;  
-    letter-spacing: 0.03em;    
-    color: #14416E;
+.headingSpan-3{
+    color: #A7EB2B;
 }
 
 .boxInfoImg {
     background: rgba(14, 80, 143, 0.09);
 }
 
+.greenBox {
+    background: #F2FCDF;
+}
+
+.desktop {
+    width: 100%;
+}
+
+.boxWriting h1 {
+    font-weight: 700;
+    font-size: 2.8vw;
+    color: #0E508F;
+}
+
+.boxWriting p {
+    font-weight: 400;
+    font-size: 1.2vw;
+    letter-spacing: 0.03em;
+    color: #14416E;
+}
+
+.innerBox  {
+    min-height: 35vh;
+}
 .innerBox img {
     width: 20%;
 }
@@ -92,17 +112,6 @@ nav {
     letter-spacing: 0.03em;
     color: #0E508F;
 }
-.footer {
-    background: #0E508F;
-}
-
-.footerIcon {
-    color: white;
-}
-
-.footerIcon i {
-    font-size: 2vw;
-}
 
 .download h1 {
     font-weight: 700;
@@ -116,12 +125,58 @@ nav {
     color: rgba(255, 255, 255, 0.8);
 }
 
-.footerInfo{
+.footer {
+    background: #0E508F;
+}
+
+.footerIcon {
+    color: white;
+}
+
+.footerIcon i {
+    font-size: 2vw;
+}
+
+.footerInfo {
     font-weight: 400;
     font-size: 17px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.8);
 }
+
+.footerSubscribeButton {
+    background: rgba(255, 255, 255, 0.15);
+    width: 78%;
+}
+
+.footerSubscribeButton input {
+    border: none;
+    background: transparent;
+    color: white;
+    width: 51%;
+}
+.footerSubscribeButton input:focus {
+    outline: none;
+}
+.footerSubscribeButton input::placeholder {
+    color: white;
+  }
+
+.footerSubscribeButton button {
+    border: none;
+    font-weight: 400;
+    font-size: 1.2vw;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #0E508F;
+}
+.footerCopyRight p{
+    font-size: 1.3vw;
+}
+.footerCopyRight p{
+    font-size: 1.3vw;
+}
+
 
 /*  ############################# MOBILE ########################### */
 @media only screen and (max-width: 767px) {
@@ -142,6 +197,53 @@ nav {
     .navAccount {
         font-size: 2.5vw;
         color: white;
+    }
+
+    .headerFeatures h1 {
+        font-size: 10vw;
+    }
+
+    .headerFeatures p {
+        font-size: 5vw;
+    }
+
+    .boxWriting h1 {
+        font-size: 6vw;
         text-align: center;
     }
+
+    .boxWriting p {
+        font-size: 17px;
+        text-align: center;
+    }
+    .innerBox  {
+        min-height: 30vh;
+    }
+    .innerBox img {
+        width: 20%;
+    }
+
+    .innerBox h4 {
+        font-size: 2.6vw;
+    }
+
+    .innerBox p {
+        font-size: 3vw;
+    }
+    .footerSubscribeButton button {
+        font-size: 3.2vw;
+    }
+
+    .list-unstyled a.text-light {
+        font-size: 3.6vw;
+    }
+
+    .footerIcon i {
+        font-size: 6vw;
+    }
+    .footerCopyRight p{
+        font-size: 3vw;
+    }
+
+
 }

@@ -1,0 +1,232 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Helvetica';
+    font-style: normal;
+}
+
+.upperDiv span {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #0E508F;
+}
+
+nav {
+    background: #0E508F;
+}
+
+.active {
+    background: white;
+    color: #0E508F;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navLogIn {
+    background: #5d86ad;
+    font-weight: 500;
+    font-size: 1.3vw;
+    color: white;
+    text-align: center;
+}
+
+.navAccount {
+    background: #90DD01;
+    font-weight: 500;
+    font-size: 1.3vw;
+    color: white;
+    text-align: center;
+}
+
+.headerFeatures h1 {
+    font-weight: 700;
+    font-size: 5vw;
+    background: linear-gradient(91.76deg, #0E508F 3.27%, #A7EB2B 142.93%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.greyBox {
+    background: #E9EFF5;
+}
+
+.greyBox h4 {
+    font-weight: 700;
+    font-size: 1.4vw;
+    letter-spacing: 0.03em;
+    color: #0E508F;
+}
+
+.analysis {
+    background: rgba(14, 80, 143, 0.09);
+}
+
+.analysis h1 {
+    font-weight: 700;
+    font-size: 2.5vw;
+    color: #0E508F;
+}
+
+.analysis p {
+    font-weight: 400;
+    font-size: 1.2vw;
+    letter-spacing: 0.03em;
+    color: #14416E;
+}
+
+.requestAccount {
+    background: #0E508F;
+}
+
+.requestAccount h1 {
+    font-weight: 700;
+    font-size: 2.6vw;
+    color: #FFFFFF;
+}
+
+.requestAccount p {
+    font-weight: 400;
+    font-size: 1.3vw;
+}
+
+.signInAccount {
+    background: white;
+    color: #0E508F;
+    font-weight: 700;
+    font-size: 1.5vw;
+}
+
+.footer {
+    background: #0E508F;
+}
+
+.footerIcon {
+    color: white;
+}
+
+.footerIcon i {
+    font-size: 2vw;
+}
+
+.footerInfo {
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footerSubscribeButton {
+    background: rgba(255, 255, 255, 0.15);
+    width: 78%;
+}
+
+.footerSubscribeButton input {
+    border: none;
+    background: transparent;
+    color: white;
+    width: 51%;
+}
+.footerSubscribeButton input:focus {
+    outline: none;
+}
+.footerSubscribeButton input::placeholder {
+    color: white;
+  }
+
+.footerSubscribeButton button {
+    border: none;
+    font-weight: 400;
+    font-size: 1.2vw;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #0E508F;
+}
+
+.footerCopyRight p {
+    font-size: 1.3vw;
+}
+
+.footerCopyRight p {
+    font-size: 1.3vw;
+}
+
+.footerCopyRight p {
+    font-size: 1.3vw;
+}
+
+
+
+/*  ############################# MOBILE ########################### */
+@media only screen and (max-width: 767px) {
+    .upperDivSpan {
+        display: none !important;
+    }
+
+    .upperDiv {
+        justify-content: center !important;
+    }
+
+    .navLogIn {
+        font-size: 2.5vw;
+        color: white;
+        text-align: center;
+    }
+
+    .navAccount {
+        font-size: 2.5vw;
+        color: white;
+        text-align: center;
+    }
+
+    .headerFeatures h1 {
+        font-size: 5vw;
+    }
+
+    .signInAccount {
+        font-size: 3.4vw;
+    }
+
+    .greyBox h4 {
+        font-size: 3vw;
+    }
+
+    .requestAccount h1 {
+        font-size: 5vw;
+    }
+
+    .requestAccount p {
+        font-size: 3vw;
+    }
+
+    .analysis h1 {
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    .analysis p {
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    .footerSubscribeButton button {
+        font-size: 3.2vw;
+    }
+
+    .list-unstyled a.text-light {
+        font-size: 3.6vw;
+    }
+
+    .footerIcon i {
+        font-size: 6vw;
+    }
+
+    .footerCopyRight p {
+        font-size: 3vw;
+    }
+
+}

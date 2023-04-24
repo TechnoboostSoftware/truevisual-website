@@ -13,8 +13,7 @@
             integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
             crossorigin="anonymous"></script>
         <link rel="stylesheet" href="CSS/features.css">
-        <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,301,701,300,501,401,901,400&display=swap"
-            rel="stylesheet">
+        
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
             crossorigin="anonymous"></script>
@@ -48,40 +47,40 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 ps-3 mb-lg-0">
                         <li class="nav-item me-3">
-                            <a class="nav-link active rounded-pill py-2 px-4" aria-current="page" href="#">Home</a>
+                            <a class="nav-link  py-2 px-4" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item me-3  dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link active rounded-pill dropdown-toggle " href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Retail Agency
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Overview</a></li>
-                                <li><a class="dropdown-item" href="#">Features</a></li>
-                                <li><a class="dropdown-item" href="#">Blog</a></li>
+                                <li><a class="dropdown-item" href="Retail.html">Overview</a></li>
+                                <li><a class="dropdown-item" href="features.html">Features</a></li>
+                                <li><a class="dropdown-item" href="blogs.html">Blog</a></li>
                             </ul>
                         </li>
                         <li class="nav-item me-3 ">
-                            <a class="nav-link" href="#">Traditional Marketing</a>
+                            <a class="nav-link" href="Traditional.html">Traditional Marketing</a>
                         </li>
 
                     </ul>
                 </div>
-                <form class="d-flex">
+                <div class="d-flex">
                     <button class="btn navLogIn mx-2 rounded-pill px-3 py-2">LOGIN</button>
                     <button class="btn navAccount rounded-pill px-3 py-2">START FREE ACCOUNT</button>
-                </form>
+                </div>
             </div>
         </nav>
         <!-- ############################# heading #############################-->
         <div class="container-fluid">
             <div class="headerFeatures text-center py-5">
                 <h1>FEATURES</h1>
-                <p>Retail Agency > Features</p>
+                <p><span class="headingSpan-1">Retail Agency </span> <span class="headingSpan-2">> </span> <span class="headingSpan-3">Features</span></p>
             </div>
 
             <!-- ############################# boxInfoImg #############################-->
-            <div class="boxInfoImg my-5 rounded px-5">
+            <div class="boxInfoImg my-5 rounded py-3  px-md-5 px-2">
                 <div class="boxWriting pt-5">
                     <h1>Manage Assets Efficiently</h1>
                     <p>Assets are objects on which work happens like stores, displays, devices, POPS marketing
@@ -89,12 +88,12 @@
                 </div>
                 <div class="row flex-md-row flex-column align-items-center">
                     <div class="col-md-6 col-12">
-                        <img src="IMAGES/desktop.svg">
+                        <img src="IMAGES/desktop.svg" class="desktop">
                     </div>
 
                     <div class="col-md-6 col-12">
                         <div class="row align-items-center">
-                            <div class="col-md-6 col-12 d-flex flex-column">
+                            <div class="col-6 d-flex flex-column">
                                 <div class="innerBox bg-light my-2 py-3 rounded text-center">
                                     <img src="IMAGES/quick.svg" class="pb-3">
                                     <h4 class="pb-2">QUICK ADD ASSETS</h4>
@@ -106,7 +105,7 @@
                                     <p>Folders, categories & tags to organize assets into groups.</p>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-12 d-flex flex-column">
+                            <div class="col-6 d-flex flex-column">
                                 <div class="innerBox bg-light my-2 py-3 rounded text-center">
                                     <img src="IMAGES/loaction.svg" class="pb-3">
                                     <h4 class="pb-2">LOCATE & IDENTIFY ASSETS</h4>
@@ -124,7 +123,7 @@
             </div>
 
             <!-- ############################# boxInfoImg #############################-->
-            <div class="boxInfoImg my-5 rounded px-5">
+            <div class="boxInfoImg greenBox my-5 rounded py-3 px-md-5 px-2">
                 <div class="boxWriting pt-5">
                     <h1>Execute Campaigns Like A Pro</h1>
                     <p>Campaign is where the work happens, customize it for team's and client's needs. The entire
@@ -132,30 +131,30 @@
                 </div>
                 <div class="row flex-md-row flex-column align-items-center">
                     <div class="col-md-6 col-12">
-                        <img src="IMAGES/desktop.svg">
+                        <img src="IMAGES/desktop.svg" class="desktop">
                     </div>
 
                     <div class="col-md-6 col-12">
                         <div class="row align-items-center">
-                            <div class="col-md-6 col-12 d-flex flex-column">
-                                <div class="innerBox bg-light my-2 py-3 rounded text-center">
+                            <div class="col-6 d-flex flex-column">
+                                <div class="innerBox h-100 bg-light my-2 py-3 rounded text-center">
                                     <img src="IMAGES/play-circle.svg" class="pb-3">
                                     <h4 class="pb-2">QUICK START CAMPAIGNS</h4>
                                     <p>Campaign template to quick-start or build your own from scratch.</p>
                                 </div>
-                                <div class="innerBox bg-light my-2 py-3 rounded text-center">
+                                <div class="innerBox h-100 bg-light my-2 py-3 rounded text-center">
                                     <img src="IMAGES/assign.svg" class="pb-3">
                                     <h4 class="pb-2">ASSIGN VISUAL CREATIVE</h4>
                                     <p>Computer vision uses artworks for AI-driven decisions.</p>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-12 d-flex flex-column">
-                                <div class="innerBox bg-light my-2 py-3 rounded text-center">
+                            <div class="col-6 d-flex flex-column">
+                                <div class="innerBox h-100 bg-light my-2 py-3 rounded text-center">
                                     <img src="IMAGES/setting.svg" class="pb-3">
                                     <h4 class="pb-2">CAMPAIGN PLANNING</h4>
                                     <p>Set assets, timelines, objectives, and targets of the campaign.</p>
                                 </div>
-                                <div class="innerBox bg-light my-2 py-3 rounded text-center">
+                                <div class="innerBox h-100 bg-light my-2 py-3 rounded text-center">
                                     <img src="IMAGES/view.svg" class="pb-3">
                                     <h4 class="pb-2">VIEW AS YOU LIKE</h4>
                                     <p>Gallery, Grid, Map, Calendar & Kanban views.</p>
@@ -167,7 +166,7 @@
             </div>
 
             <!-- ############################# boxInfoImg #############################-->
-            <div class="boxInfoImg my-5 rounded px-5">
+            <div class="boxInfoImg my-5 rounded py-3  px-md-5 px-2">
                 <div class="boxWriting pt-5">
                     <h1>Make Field Team Super Efficient</h1>
                     <p>Multiply workforce productivity by tracking time spent at locations and automate workflows so
@@ -176,30 +175,30 @@
                 </div>
                 <div class="row flex-md-row flex-column align-items-center">
                     <div class="col-md-6 col-12">
-                        <img src="IMAGES/desktop.svg">
+                        <img src="IMAGES/desktop.svg" class="desktop">
                     </div>
 
                     <div class="col-md-6 col-12">
                         <div class="row align-items-center">
-                            <div class="col-md-6 col-12 d-flex flex-column">
-                                <div class="innerBox bg-light my-2 py-3 rounded text-center">
+                            <div class="col-6 d-flex flex-column">
+                                <div class="innerBox h-100 bg-light my-2 py-3 rounded text-center">
                                     <img src="IMAGES/command.svg" class="pb-3">
                                     <h4 class="pb-2">COMMAND CENTER</h4>
                                     <p>Know where your team is and what task they are doing.</p>
                                 </div>
-                                <div class="innerBox bg-light my-2 py-3 rounded text-center">
+                                <div class="innerBox h-100 bg-light my-2 py-3 rounded text-center">
                                     <img src="IMAGES/communication.svg" class="pb-3">
                                     <h4 class="pb-2">COMMUNICATE - CHAT</h4>
                                     <p>Collaborate with your field team using chat and visual reference.</p>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-12 d-flex flex-column">
-                                <div class="innerBox bg-light my-2 py-3 rounded text-center">
+                            <div class="col-6 d-flex flex-column">
+                                <div class="innerBox h-100 bg-light my-2 py-3 rounded text-center">
                                     <img src="IMAGES/task.svg" class="pb-3">
                                     <h4 class="pb-2">ASSIGN TASK, TRACK</h4>
                                     <p>Bulk import assets with flexible options to customize asset fields.</p>
                                 </div>
-                                <div class="innerBox bg-light my-2 py-3 rounded text-center">
+                                <div class="innerBox h-100 bg-light my-2 py-3 rounded text-center">
                                     <img src="IMAGES/route.svg" class="pb-3">
                                     <h4 class="pb-2">ROUTE PLANNING</h4>
                                     <p>Plan the best route from the list of task that needs to be done.</p>
@@ -211,7 +210,7 @@
             </div>
 
             <!-- ############################# boxInfoImg #############################-->
-            <div class="boxInfoImg my-5 rounded px-5">
+            <div class="boxInfoImg greenBox my-5 rounded py-3 px-md-5 px-2">
                 <div class="boxWriting pt-5">
                     <h1>Work With Pictures Smartly</h1>
                     <p>Pictures & Videos are critical data. With TrueVisual app field team capture structured,
@@ -219,30 +218,30 @@
                 </div>
                 <div class="row flex-md-row flex-column align-items-center">
                     <div class="col-md-6 col-12">
-                        <img src="IMAGES/desktop.svg">
+                        <img src="IMAGES/desktop.svg" class="desktop">
                     </div>
 
                     <div class="col-md-6 col-12">
                         <div class="row align-items-center">
-                            <div class="col-md-6 col-12 d-flex flex-column">
-                                <div class="innerBox bg-light my-2 py-3 rounded text-center">
+                            <div class="col-6 d-flex flex-column">
+                                <div class="innerBox h-100 bg-light my-2 py-3 rounded text-center">
                                     <img src="IMAGES/thumbsup.svg" class="pb-3">
                                     <h4 class="pb-2">QUICK ONBOARDING</h4>
                                     <p>Self-register process gets app user sign up themselves</p>
                                 </div>
-                                <div class="innerBox bg-light my-2 py-3 rounded text-center">
+                                <div class="innerBox h-100 bg-light my-2 py-3 rounded text-center">
                                     <img src="IMAGES/scale.svg" class="pb-3">
                                     <h4 class="pb-2">ANNOTATION & MEASUREMENTS</h4>
                                     <p>Bulk import assets with flexible options to customize asset fields.</p>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-12 d-flex flex-column">
-                                <div class="innerBox bg-light my-2 py-3 rounded text-center">
+                            <div class="col-6 d-flex flex-column">
+                                <div class="innerBox h-100 bg-light my-2 py-3 rounded text-center">
                                     <img src="IMAGES/lock.svg" class="pb-3">
                                     <h4 class="pb-2">TAMPERPROOF VISUALS</h4>
                                     <p>Capture visuals with GPS and server-based time stamps.</p>
                                 </div>
-                                <div class="innerBox bg-light my-2 py-3 rounded text-center">
+                                <div class="innerBox h-100 bg-light my-2 py-3 rounded text-center">
                                     <img src="IMAGES/define.svg" class="pb-3">
                                     <h4 class="pb-2">DEFINE VISUAL PROOFS</h4>
                                     <p>Control Visual Proof structure with visual types, steps, alerts, tags, notes &
@@ -255,7 +254,7 @@
             </div>
 
             <!-- ############################# boxInfoImg #############################-->
-            <div class="boxInfoImg my-5 rounded px-5">
+            <div class="boxInfoImg my-5 rounded py-3  px-md-5 px-2">
                 <div class="boxWriting pt-5">
                     <h1>Work Flow & Automation</h1>
                     <p>Automate managing of visual proofs and campaign data. Spend more time managing the execution and
@@ -263,31 +262,31 @@
                 </div>
                 <div class="row flex-md-row flex-column align-items-center">
                     <div class="col-md-6 col-12">
-                        <img src="IMAGES/desktop.svg">
+                        <img src="IMAGES/desktop.svg" class="desktop">
                     </div>
 
                     <div class="col-md-6 col-12">
                         <div class="row align-items-center">
-                            <div class="col-md-6 col-12 d-flex flex-column">
-                                <div class="innerBox bg-light my-2 py-3 rounded text-center">
+                            <div class="col-6 d-flex flex-column">
+                                <div class="innerBox h-100 bg-light my-2 py-3 rounded text-center">
                                     <img src="IMAGES/bolt.svg" class="pb-3">
                                     <h4 class="pb-2">ASSET WORKFLOW</h4>
                                     <p>Asset workflow defines stages like recee, installation, quality check &
                                         maintenance.</p>
                                 </div>
-                                <div class="innerBox bg-light my-2 py-3 rounded text-center">
+                                <div class="innerBox h-100 bg-light my-2 py-3 rounded text-center">
                                     <img src="IMAGES/capture.svg" class="pb-3">
                                     <h4 class="pb-2">CAPTURE CLIENT FEEDBACK</h4>
                                     <p>Capture clients' approval & feedback.</p>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-12 d-flex flex-column">
-                                <div class="innerBox bg-light my-2 py-3 rounded text-center">
+                            <div class="col-6 d-flex flex-column">
+                                <div class="innerBox h-100 bg-light my-2 py-3 rounded text-center">
                                     <img src="IMAGES/automation.svg" class="pb-3">
                                     <h4 class="pb-2">AUTOMATION</h4>
                                     <p>Configure automation rules, event triggers, and notifications.</p>
                                 </div>
-                                <div class="innerBox bg-light my-2 py-3 rounded text-center">
+                                <div class="innerBox h-100 bg-light my-2 py-3 rounded text-center">
                                     <img src="IMAGES/ai.svg" class="pb-3">
                                     <h4 class="pb-2">AI-ASSISTED SUPERVISING</h4>
                                     <p>Decision engine to intelligently assist the campaign supervising.</p>
@@ -299,7 +298,7 @@
             </div>
 
             <!-- ############################# boxInfoImg #############################-->
-            <div class="boxInfoImg my-5 rounded px-5">
+            <div class="boxInfoImg greenBox my-5 rounded py-3 px-md-5 px-2">
                 <div class="boxWriting pt-5">
                     <h1>Client Dashboard & Live Reporting</h1>
                     <p>A well-crafted dashboard will go a long way in delighting the client and delivering the promises.
@@ -307,30 +306,30 @@
                 </div>
                 <div class="row flex-md-row flex-column align-items-center">
                     <div class="col-md-6 col-12">
-                        <img src="IMAGES/desktop.svg">
+                        <img src="IMAGES/desktop.svg" class="desktop">
                     </div>
 
                     <div class="col-md-6 col-12">
                         <div class="row align-items-center">
-                            <div class="col-md-6 col-12 d-flex flex-column">
-                                <div class="innerBox bg-light my-2 py-3 rounded text-center">
+                            <div class="col-6 d-flex flex-column">
+                                <div class="innerBox h-100 bg-light my-2 py-3 rounded text-center">
                                     <img src="IMAGES/dashboard.svg" class="pb-3">
                                     <h4 class="pb-2">SHARE LIVE DASHBOARD</h4>
                                     <p>Sharable link for the dashboard and reporting tool for the client.</p>
                                 </div>
-                                <div class="innerBox bg-light my-2 py-3 rounded text-center">
+                                <div class="innerBox h-100 bg-light my-2 py-3 rounded text-center">
                                     <img src="IMAGES/format.svg" class="pb-3">
                                     <h4 class="pb-2">DOWNLOAD FORMATS</h4>
                                     <p>The data can be downloaded in Excel, PDF, Presentation or zip formats</p>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-12 d-flex flex-column">
-                                <div class="innerBox bg-light my-2 py-3 rounded text-center">
+                            <div class="col-6 d-flex flex-column">
+                                <div class="innerBox h-100 bg-light my-2 py-3 rounded text-center">
                                     <img src="IMAGES/custom.svg" class="pb-3">
                                     <h4 class="pb-2">CUSTOMIZED DASHBOARD</h4>
                                     <p>Customized with different widgets and visual info-graphics</p>
                                 </div>
-                                <div class="innerBox bg-light my-2 py-3 rounded text-center">
+                                <div class="innerBox h-100 bg-light my-2 py-3 rounded text-center">
                                     <img src="IMAGES/candle.svg" class="pb-3">
                                     <h4 class="pb-2">COMPLETE CONTROL</h4>
                                     <p>Control what data is visible and actions allowed.</p>
@@ -342,7 +341,7 @@
             </div>
 
             <!-- ############################# boxInfoImg #############################-->
-            <div class="boxInfoImg my-5 rounded px-5">
+            <div class="boxInfoImg my-5 rounded py-3  px-md-5 px-2">
                 <div class="boxWriting pt-5">
                     <h1>Invoicing & Payment</h1>
                     <p>Clients demand data in a specific format for the purpose of invoicing and billing. Use our
@@ -350,12 +349,12 @@
                 </div>
                 <div class="row flex-md-row flex-column align-items-center">
                     <div class="col-md-6 col-12">
-                        <img src="IMAGES/desktop.svg">
+                        <img src="IMAGES/desktop.svg" class="desktop">
                     </div>
 
                     <div class="col-md-6 col-12">
                         <div class="row">
-                            <div class="col-md-6 col-12 d-flex flex-column">
+                            <div class="col-6 d-flex flex-column">
                                 <div class="innerBox bg-light my-2 py-3 rounded text-center">
                                     <img src="IMAGES/invoice.svg" class="pb-3">
                                     <h4 class="pb-2">INVOICE DOCUMENTATION</h4>
@@ -367,7 +366,7 @@
                                     <p>Folders, categories & tags to organize assets into groups.</p>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-12 d-flex flex-column">
+                            <div class="col-6 d-flex flex-column">
                                 <div class="innerBox bg-light my-2 py-3 rounded text-center">
                                     <img src="IMAGES/certificate.svg" class="pb-3">
                                     <h4 class="pb-2">TRUEVISUAL CERTIFICATE</h4>
@@ -380,7 +379,7 @@
             </div>
 
             <!-- ############################# boxInfoImg #############################-->
-            <div class="boxInfoImg my-5 rounded px-5">
+            <div class="boxInfoImg greenBox my-5 rounded py-3 px-md-5 px-2">
                 <div class="boxWriting pt-5">
                     <h1>AI Decision Engines</h1>
                     <p>Use the various AI & Computer Vision algorithms to automate decision making, supervising and
@@ -388,12 +387,12 @@
                 </div>
                 <div class="row flex-md-row flex-column align-items-center">
                     <div class="col-md-6 col-12">
-                        <img src="IMAGES/desktop.svg">
+                        <img src="IMAGES/desktop.svg" class="desktop">
                     </div>
 
                     <div class="col-md-6 col-12">
                         <div class="row align-items-center">
-                            <div class="col-md-6 col-12 d-flex flex-column">
+                            <div class="col-6 d-flex flex-column">
                                 <div class="innerBox bg-light my-2 py-3 rounded text-center">
                                     <img src="IMAGES/brain.svg" class="pb-3">
                                     <h4 class="pb-2">CREATIVE AND EXECUTION</h4>
@@ -405,7 +404,7 @@
                                     <p>Compare the previous and current images to identify changes.</p>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-12 d-flex flex-column">
+                            <div class="col-6 d-flex flex-column">
                                 <div class="innerBox bg-light my-2 py-3 rounded text-center">
                                     <img src="IMAGES/mountain.svg" class="pb-3">
                                     <h4 class="pb-2">READ TEXT IN IMAGE</h4>
@@ -424,23 +423,22 @@
             </div>
 
             <!-- ############################# FOOTER #############################-->
-            <div class="footer">
-                <div class="row py-5 px-5">
-                    <div class="col-md-6 col-12 py-5 px-3 text-md-start text-center align-items-start pe-md-5 px-2">
+            <div class="footer mt-5">
+                <div class="row py-5 px-sm-5 px-2">
+                    <div class="col-md-6 col-12  px-3 text-md-start text-center align-items-start pe-md-5 px-2">
                         <div class="d-flex flex-column pe-md-5 px-2">
-                            <div> <img src="IMAGES/footerLogo.svg"></div>
-                            <div>
+                            <div class="pb-4"> <img src="IMAGES/footerLogo.svg"></div>
+                            <div class="pb-4">
                                 <p class="footerInfo">To build trust between people & organization by enabling the
-                                    exchange of true
-                                    information</p>
+                                    exchange of true information</p>
                             </div>
-                            <div class="rounded-pill">
-                                <input type="text" placeholder="enter your mail" class="rounded-pill px-5 py-2">
-                                <button class="rounded-pill bg-light px-5 py-2">subcribe</button>
+                            <div class="rounded-pill footerSubscribeButton w-100 py-2 d-flex">
+                                <input type="text" placeholder="Enter Email Address" class=" ms-5">
+                                <button class="rounded-pill bg-light px-sm-5 px-3 py-2">subcribe</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2 col-6">
+                    <div class="col-md-2 col-6 pt-md-0 pt-5 ps-sm-0 ps-3">
                         <h3 class="text-light pb-3">Company</h3>
                         <ul class="list-unstyled mb-2">
                             <li class="mb-3"><a href="" class="text-light text-decoration-none">Terms and Conditions</a>
@@ -451,19 +449,18 @@
                             <li class="mb-3"><a href="" class="text-light text-decoration-none">Privacy Policy</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-4 col-3">
+                    <div class="col-md-4 col-6 pt-md-0 pt-5">
                         <div class="row d-flex flex-md-row flex-column">
                             <div class="col-md-6 col-12">
                                 <h3 class="text-light pb-3">Contact</h3>
                                 <ul class="list-unstyled mb-2">
                                     <li class="mb-3"><a href="" class="text-light text-decoration-none">Tel:
-                                            080-41258010</a>
-                                    </li>
+                                            080-41258010</a></li>
                                     <li class="mb-3"><a href="" class="text-light text-decoration-none">Sales:
                                             +91-7019506095</a></li>
                                 </ul>
                             </div>
-                            <div class="col-md-6 col-12">
+                            <div class="col-md-6 col-12 pt-md-0 pt-3">
                                 <h3 class="text-light pb-3">Follow Us</h3>
                                 <div class="footerIcon">
                                     <i class="fa-brands fa-linkedin me-2"></i>
@@ -478,6 +475,7 @@
                     <p class="mb-0 py-3">© Copyright 2023 All right reserved by Truevisual</p>
                 </div>
             </div>
+
 
         </div>
     </body>

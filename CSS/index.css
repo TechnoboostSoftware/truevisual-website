@@ -120,7 +120,7 @@ nav {
 
 .divThree .row h4 {
     font-weight: 700;
-    font-size: 1.5vw;
+    font-size: 2vw;
     letter-spacing: 0.03em;
     color: #14416E;
 }
@@ -165,21 +165,21 @@ nav {
 
 .features h3 {
     font-weight: 700;
-    font-size: 35px;
+    font-size: 3vw;
     letter-spacing: 0.03em;
     color: #14416E;
 }
 
 .features h4 {
     font-weight: 700;
-    font-size: 19px;
+    font-size: 1.4vw;
     letter-spacing: 0.03em;
     color: #0E508F;
 }
 
 .features p {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.1vw;
     letter-spacing: 0.03em;
     color: #14416E;
 }
@@ -190,11 +190,20 @@ nav {
 
 .industries h1 {
     font-weight: 700;
-    font-size: 35px;
+    font-size: 3vw;
     letter-spacing: 0.03em;
     color: #14416E;
 }
 
+.industries p {
+    font-weight: 400;
+    font-size: 1.4vw;
+    letter-spacing: 0.03em;
+    color: #14416E;
+}
+.whiteBox {
+    min-height: 41vh;
+}
 .clients h1 {
     font-weight: 700;
     font-size: 35px;
@@ -212,6 +221,22 @@ nav {
     background: #0E508F;
 }
 
+.download h1 {
+    font-weight: 700;
+    font-size: 4vw;
+    line-height: 55px;
+    letter-spacing: 0.03em;
+}
+
+.download p {
+    font-weight: 400;
+    font-size: 1.5vw;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.8);
+}
+.downloadLink{
+    width: 35%;
+}
 .footer {
     background: #0E508F;
 }
@@ -224,23 +249,46 @@ nav {
     font-size: 2vw;
 }
 
-.download h1 {
-    font-weight: 700;
-    letter-spacing: 0.03em;
-}
-
-.download p {
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.8);
-}
-
-.footerInfo{
+.footerInfo {
     font-weight: 400;
     font-size: 17px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.8);
+}
+
+.footerSubscribeButton {
+    background: rgba(255, 255, 255, 0.15);
+    width: 78%;
+}
+
+.footerSubscribeButton input {
+    border: none;
+    background: transparent;
+    color: white;
+    width: 51%;
+}
+.footerSubscribeButton input:focus {
+    outline: none;
+}
+.footerSubscribeButton input::placeholder {
+    color: white;
+  }
+
+.footerSubscribeButton button {
+    border: none;
+    font-weight: 400;
+    font-size: 1.2vw;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #0E508F;
+}
+
+.footerCopyRight p {
+    font-size: 1.3vw;
+}
+
+.footerCopyRight p {
+    font-size: 1.3vw;
 }
 
 /*  ############################# MOBILE ########################### */
@@ -286,25 +334,23 @@ nav {
     }
 
     .mainBtn-1 span {
-        font-size: 2.4vw;
-        padding: 10px 8px !important;
+        font-size: 3vw;
     }
 
     .mainBtn-2 span {
-        font-size: 2.4vw;
-        padding: 10px 8px !important;
+        font-size: 3vw;
     }
 
     .storyContent h3 {
-        font-size: 4.5vw;
+        font-size: 6vw;
     }
 
     .storyContent p {
-        font-size: 2.5vw;
+        font-size: 3.2vw;
     }
 
     .storyContent h5 {
-        font-size: 2.8vw;
+        font-size: 4vw;
     }
 
     .divThree h1 {
@@ -346,20 +392,63 @@ nav {
     }
 
     .features h4 {
-        font-weight: 700;
-        font-size: 19px;
-        letter-spacing: 0.03em;
-        color: #0E508F;
+        font-size: 4vw;
     }
 
     .features p {
-        font-weight: 400;
-        font-size: 16px;
-        letter-spacing: 0.03em;
-        color: #14416E;
+        font-size: 3vw;
+
     }
 
-    .industries {
-        background: #E9EFF4;
+    .industries p {
+        font-size: 3.5vw;
+
+    }
+
+    .industries h1 {
+        font-size: 6vw;
+    }
+
+    .industries p {
+        font-size: 3vw;
+    }
+    .whiteBox {
+        min-height: 26vh;
+    }
+    .clients h1 {
+        font-size: 8vw;
+    }
+
+    .clients p {
+        font-size: 4vw;
+    }
+
+    .download h1 {
+        font-size: 5vw;
+        line-height: 55px;
+    }
+
+    .download p {
+        font-size: 3vw;
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    .downloadImg {
+        justify-content: center;
+    }
+
+    .footerSubscribeButton button {
+        font-size: 3.2vw;
+    }
+    .list-unstyled a.text-light {
+        font-size: 3.6vw;
+    }
+
+    .footerIcon i {
+        font-size: 6vw;
+    }
+
+    .footerCopyRight p {
+        font-size: 3vw;
     }
 }
