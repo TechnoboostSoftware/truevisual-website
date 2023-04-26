@@ -120,7 +120,7 @@ nav {
 
 .divThree .row h4 {
     font-weight: 700;
-    font-size: 2vw;
+    font-size: 1.5vw;
     letter-spacing: 0.03em;
     color: #14416E;
 }
@@ -184,7 +184,7 @@ nav {
     color: #14416E;
 }
 
-.industries {
+#industries {
     background: #E9EFF4;
 }
 

@@ -4,7 +4,10 @@
     font-family: 'Helvetica';
     font-style: normal;
 }
-
+.btn-blue{
+    background: #0E508F;
+    color: #fff;
+}
 .upperDiv span {
     font-family: 'Helvetica';
     font-style: normal;
