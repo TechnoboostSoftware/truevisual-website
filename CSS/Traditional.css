@@ -6,7 +6,7 @@
 }
 @font-face {
     font-family: "Helvetica-light";
-    src: url(..\FONTS\Helvetica\ Light\ Regular.otf);
+    src: url("..\FONTS\Helvetica\ Light\ Regular.otf");
 }
 
 .upperDiv span {
