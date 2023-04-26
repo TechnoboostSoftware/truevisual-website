@@ -6,7 +6,7 @@
 }
 @font-face {
     font-family: "Helvetica-light";
-    src: url("..\FONTS\Helvetica\ Light\ Regular.otf");
+    src: url("../FONTS/HelveticaLightRegular.otf");
 }
 .btn-blue{
     background: #0E508F;
@@ -120,7 +120,7 @@ nav {
     border: none;
     background: transparent;
     color: white;
-    width: 51%;
+    width: 65%;
 }
 .footerSubscribeButton input:focus {
     outline: none;
@@ -189,10 +189,13 @@ nav {
         font-size: 3vw;
     }
 
-    .footerSubscribeButton button {
-        font-size: 3.2vw;
+    .footerSubscribeButton input {
+        width: 71%;
     }
-    .list-unstyled a.text-light {
+
+    .footerSubscribeButton button {
+        font-size: 2vw;
+    }    .list-unstyled a.text-light {
         font-size: 3.6vw;
     }
 
@@ -207,5 +210,10 @@ nav {
     .footerCopyRight p {
         font-size: 3vw;
     }
-
+}
+/*  ############################# MOBILE ########################### */
+@media only screen and (max-width: 576px) {
+    .footerSubscribeButton input {
+        width: 67%;
+    }
 }

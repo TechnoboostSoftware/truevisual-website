@@ -4,9 +4,10 @@
     font-family: 'Helvetica';
     font-style: normal;
 }
+
 @font-face {
     font-family: "Helvetica-light";
-    src: url("../FONTS/Helvetica/Light/Regular.otf");
+    src: url("../FONTS/HelveticaLightRegular.otf");
 }
 
 .upperDiv span {
@@ -205,6 +206,7 @@ nav {
     letter-spacing: 0.03em;
     color: #14416E;
 }
+
 .clients h1 {
     font-weight: 700;
     font-size: 35px;
@@ -235,9 +237,11 @@ nav {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.8);
 }
-.downloadLink{
+
+.downloadLink {
     width: 35%;
 }
+
 .footer {
     background: #0E508F;
 }
@@ -266,14 +270,16 @@ nav {
     border: none;
     background: transparent;
     color: white;
-    width: 51%;
+    width: 65%;
 }
+
 .footerSubscribeButton input:focus {
     outline: none;
 }
+
 .footerSubscribeButton input::placeholder {
     color: white;
-  }
+}
 
 .footerSubscribeButton button {
     border: none;
@@ -413,9 +419,11 @@ nav {
     .industries p {
         font-size: 3vw;
     }
+
     .whiteBox {
         min-height: 26vh;
     }
+
     .clients h1 {
         font-size: 8vw;
     }
@@ -438,9 +446,14 @@ nav {
         justify-content: center;
     }
 
-    .footerSubscribeButton button {
-        font-size: 3.2vw;
+    .footerSubscribeButton input {
+        width: 71%;
     }
+
+    .footerSubscribeButton button {
+        font-size: 2vw;
+    }
+
     .list-unstyled a.text-light {
         font-size: 3.6vw;
     }
@@ -451,5 +464,11 @@ nav {
 
     .footerCopyRight p {
         font-size: 3vw;
+    }
+}
+/*  ############################# MOBILE ########################### */
+@media only screen and (max-width: 576px) {
+    .footerSubscribeButton input {
+        width: 67%;
     }
 }
