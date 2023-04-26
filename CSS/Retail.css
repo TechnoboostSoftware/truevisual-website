@@ -82,7 +82,7 @@ nav {
     color: #0E508F;
 }
 
-.story {
+#story {
     background: rgba(14, 80, 143, 0.09);
 }
 
@@ -265,15 +265,14 @@ nav {
     }
 
     .mainContent h1 {
-        font-size: 7vw;
+        font-size: 8vw;
         text-align: center;
     }
 
     .mainContent p {
-        font-size: 4vw;
+        font-size: 3.7vw;
         color: #0E508F;
         text-align: center;
-        padding: 0px 30px !important;
     }
 
     .mainForm {
@@ -311,7 +310,8 @@ nav {
     }
 
     .requestAccount-2 h1 {
-        font-size: 4vw;
+        font-size: 3.7vw;
+        line-height: 25px;
     }
 
     .navAccount-2 {
@@ -327,10 +327,10 @@ nav {
     }
 
     .projects h3 {
-        font-size: 4vw;
+        font-size: 3.5vw;
     }
     .projects p{
-        font-size: 2.5vw;
+        font-size: 2.4vw;
     }
 
     .requestAccount h1 {
