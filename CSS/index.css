@@ -87,7 +87,7 @@ nav {
     color: #0E508F;
 }
 
-.story {
+#story {
     background: rgba(14, 80, 143, 0.09);
 }
 
@@ -158,7 +158,7 @@ nav {
 
 .requestAccount h1 {
     font-weight: 700;
-    font-size: 3vw;
+    font-size: 2.8vw;
     text-align: center;
     color: #FFFFFF;
 }
@@ -367,19 +367,19 @@ nav {
     }
 
     .blueBox h5 {
-        font-size: 3.5vw;
+        font-size: 3.7vw;
     }
 
     .blueBox p {
-        font-size: 2.3vw;
+        font-size: 2.5vw;
     }
 
     .blueBoxRight h5 {
-        font-size: 3.2vw;
+        font-size: 3.7vw;
     }
 
     .blueBoxRight p {
-        font-size: 2.2vw;
+        font-size: 2.5vw;
     }
 
     .requestAccount h1 {
@@ -424,12 +424,12 @@ nav {
     }
 
     .download h1 {
-        font-size: 5vw;
+        font-size: 6vw;
         line-height: 55px;
     }
 
     .download p {
-        font-size: 3vw;
+        font-size: 4vw;
         color: rgba(255, 255, 255, 0.8);
     }
 
