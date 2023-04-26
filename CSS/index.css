@@ -4,11 +4,15 @@
     font-family: 'Helvetica';
     font-style: normal;
 }
+@font-face {
+    font-family: "Helvetica-light";
+    src: url("..\FONTS\Helvetica\ Light\ Regular.otf");
+}
 
 .upperDiv span {
     font-family: 'Helvetica';
     font-style: normal;
-    font-weight: 400;
+    font-family: "Helvetica-light";
     font-size: 18px;
     color: #0E508F;
 }
@@ -54,7 +58,7 @@ nav {
 }
 
 .mainContent p {
-    font-weight: 400;
+    font-family: "Helvetica-light";
     font-size: 1.5vw;
     letter-spacing: 0.03em;
     color: #0E508F;
@@ -98,14 +102,14 @@ nav {
 }
 
 .storyContent p {
-    font-weight: 400;
+    font-family: "Helvetica-light";
     font-size: 1.2vw;
     letter-spacing: 0.03em;
     color: #14416E;
 }
 
 .storyContent h5 {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.5vw;
     letter-spacing: 0.03em;
     color: #0E508F;
@@ -138,7 +142,7 @@ nav {
 }
 
 .blueBox p {
-    font-weight: 400;
+    font-family: "Helvetica-light";
     font-size: 1.2vw;
     letter-spacing: 0.03em;
     color: #FFFFFF;
@@ -178,7 +182,7 @@ nav {
 }
 
 .features p {
-    font-weight: 400;
+    font-family: "Helvetica-light";
     font-size: 1.1vw;
     letter-spacing: 0.03em;
     color: #14416E;
@@ -196,13 +200,10 @@ nav {
 }
 
 .industries p {
-    font-weight: 400;
+    font-family: "Helvetica-light";
     font-size: 1.4vw;
     letter-spacing: 0.03em;
     color: #14416E;
-}
-.whiteBox {
-    min-height: 41vh;
 }
 .clients h1 {
     font-weight: 700;
@@ -211,7 +212,7 @@ nav {
 }
 
 .clients p {
-    font-weight: 400;
+    font-family: "Helvetica-light";
     font-size: 16px;
     letter-spacing: 0.03em;
     color: #0E508F;
@@ -229,7 +230,7 @@ nav {
 }
 
 .download p {
-    font-weight: 400;
+    font-family: "Helvetica-light";
     font-size: 1.5vw;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.8);
@@ -250,7 +251,7 @@ nav {
 }
 
 .footerInfo {
-    font-weight: 400;
+    font-family: "Helvetica-light";
     font-size: 17px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.8);
@@ -276,7 +277,7 @@ nav {
 
 .footerSubscribeButton button {
     border: none;
-    font-weight: 400;
+    font-family: "Helvetica-light";
     font-size: 1.2vw;
     letter-spacing: 0.03em;
     text-transform: uppercase;

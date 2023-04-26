@@ -4,9 +4,12 @@
     font-family: 'Helvetica';
     font-style: normal;
 }
-
+@font-face {
+    font-family: "Helvetica-light";
+    src: url(..\FONTS\Helvetica\ Light\ Regular.otf);
+}
 .upperDiv span {
-    font-weight: 400;
+    font-family: "Helvetica-light";
     font-size: 18px;
     color: #0E508F;
 }
@@ -43,7 +46,7 @@ nav {
 
 .mainContent h1 {
     font-weight: 700;
-    font-size: 5vw;
+    font-size: 4vw;
     color: #0E508F;
 }
 
@@ -52,7 +55,7 @@ nav {
 }
 
 .mainContent p {
-    font-weight: 400;
+    font-family: "Helvetica-light";
     font-size: 1.5vw;
     letter-spacing: 0.03em;
     color: #0E508F;
@@ -93,7 +96,7 @@ nav {
 }
 
 .storyContent p {
-    font-weight: 400;
+    font-family: "Helvetica-light";
     font-size: 1.2vw;
     letter-spacing: 0.03em;
     color: #14416E;
@@ -113,8 +116,8 @@ nav {
 }
 
 .clients p {
-    font-weight: 400;
-    font-size: 2.2vw;
+    font-family: "Helvetica-light";
+    font-size: 1.7vw;
     letter-spacing: 0.03em;
     color: #0E508F;
 }
@@ -130,7 +133,7 @@ nav {
 }
 
 .requestAccoun-2 p {
-    font-weight: 400;
+    font-family: "Helvetica-light";
     font-size: 1.2vw;
 }
 
@@ -151,7 +154,7 @@ nav {
 }
 
 .projects p {
-    font-weight: 400;
+    font-family: "Helvetica-light";
     font-size: 1.5vw;
     letter-spacing: 0.03em;
 }
@@ -171,7 +174,7 @@ nav {
 }
 
 .requestAccount p {
-    font-weight: 400;
+    font-family: "Helvetica-light";
     font-size: 1.3vw;
 }
 
@@ -196,7 +199,7 @@ nav {
 }
 
 .footerInfo {
-    font-weight: 400;
+    font-family: "Helvetica-light";
     font-size: 17px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.8);
@@ -222,7 +225,7 @@ nav {
 
 .footerSubscribeButton button {
     border: none;
-    font-weight: 400;
+    font-family: "Helvetica-light";
     font-size: 1.2vw;
     letter-spacing: 0.03em;
     text-transform: uppercase;

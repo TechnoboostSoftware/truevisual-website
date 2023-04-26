@@ -4,6 +4,10 @@
     font-family: 'Helvetica';
     font-style: normal;
 }
+@font-face {
+    font-family: "Helvetica-light";
+    src: url(..\FONTS\Helvetica\ Light\ Regular.otf);
+}
 .btn-blue{
     background: #0E508F;
     color: #fff;
@@ -11,7 +15,7 @@
 .upperDiv span {
     font-family: 'Helvetica';
     font-style: normal;
-    font-weight: 400;
+    font-family: "Helvetica-light";
     font-size: 18px;
     color: #0E508F;
 }
@@ -61,7 +65,7 @@ nav {
 }
 
 .headerFeatures p {
-    font-weight: 400;
+    font-family: "Helvetica-light";
     font-size: 2vw;
 }
 .headingSpan-1{
@@ -81,7 +85,7 @@ nav {
 }
 
 .card-body p {
-    font-weight: 400;
+    font-family: "Helvetica-light";
     font-size: 1.2vw;
     text-align: justify;
     letter-spacing: 0.03em;
@@ -101,7 +105,7 @@ nav {
 }
 
 .footerInfo {
-    font-weight: 400;
+    font-family: "Helvetica-light";
     font-size: 17px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.8);
@@ -127,7 +131,7 @@ nav {
 
 .footerSubscribeButton button {
     border: none;
-    font-weight: 400;
+    font-family: "Helvetica-light";
     font-size: 1.2vw;
     letter-spacing: 0.03em;
     text-transform: uppercase;
