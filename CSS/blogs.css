@@ -39,6 +39,12 @@ nav {
     color: white;
     text-align: center;
 }
+.navLogIn a{
+    font-weight: 700;
+    font-size: 1.3vw;
+    color: white;
+    text-align: center;
+}
 
 .navAccount {
     background: #90DD01;
@@ -155,14 +161,8 @@ nav {
         justify-content: center !important;
     }
 
-    .navLogIn {
-        font-size: 2.5vw;
-        color: white;
-        text-align: center;
-    }
-
-    .navAccount {
-        font-size: 2.5vw;
+    .navLogIn a {
+        font-size: 2.8vw;
         color: white;
         text-align: center;
     }
