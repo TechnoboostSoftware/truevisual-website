@@ -38,6 +38,12 @@ nav {
     color: white;
     text-align: center;
 }
+.navLogIn a{
+    font-weight: 700;
+    font-size: 1.3vw;
+    color: white;
+    text-align: center;
+}
 
 .navAccount {
     background: #90DD01;
