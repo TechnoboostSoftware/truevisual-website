@@ -160,9 +160,8 @@ nav {
     .upperDiv {
         justify-content: center !important;
     }
-
     .navLogIn a {
-        font-size: 3vw;
+        font-size: 2vw;
         color: white;
         text-align: center;
     }
@@ -209,6 +208,11 @@ nav {
 }
 /*  ############################# MOBILE ########################### */
 @media only screen and (max-width: 576px) {
+    .navLogIn a {
+        font-size: 3vw;
+        color: white;
+        text-align: center;
+    }
     .footerSubscribeButton input {
         width: 62%;
     }

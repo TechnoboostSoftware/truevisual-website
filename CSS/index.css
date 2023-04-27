@@ -329,7 +329,7 @@ nav {
     }
 
     .navLogIn a {
-        font-size: 3vw;
+        font-size: 2vw;
         color: white;
         text-align: center;
     }
@@ -484,6 +484,11 @@ nav {
 
 /*  ############################# MOBILE ########################### */
 @media only screen and (max-width: 576px) {
+    .navLogIn a {
+        font-size: 3vw;
+        color: white;
+        text-align: center;
+    }
     .download h1 {
         font-size: 6vw;
         line-height: 55px;
