@@ -136,6 +136,9 @@ nav {
     .headerBlogs h1 {
         font-size: 5vw;
     }
+    .contentBlog p {
+        font-size: 2.5vw;
+    }
     .footerSubscribeButton input {
         width: 74%;
     }
@@ -166,7 +169,7 @@ nav {
         font-weight: 700;
     }
     .list-unstyled a.text-light {
-        font-size: 3.6vw;
+        font-size: 3.3vw;
     }
     .footerInfo {
         font-family: "Helvetica-light";
