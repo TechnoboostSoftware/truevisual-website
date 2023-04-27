@@ -4,6 +4,7 @@
     font-family: 'Helvetica';
     font-style: normal;
 }
+
 @font-face {
     font-family: "Helvetica-light";
     src: url("../FONTS/HelveticaLightRegular.otf");
@@ -37,7 +38,8 @@ nav {
     color: white;
     text-align: center;
 }
-.navLogIn a{
+
+.navLogIn a {
     font-weight: 700;
     font-size: 1.3vw;
     color: white;
@@ -66,13 +68,17 @@ nav {
     font-weight: 400;
     font-size: 2vw;
 }
-.headingSpan-1{
-    color: rgba(14, 80, 143, 0.41);;
+
+.headingSpan-1 {
+    color: rgba(14, 80, 143, 0.41);
+    ;
 }
-.headingSpan-2{
+
+.headingSpan-2 {
     color: #0E508F;
 }
-.headingSpan-3{
+
+.headingSpan-3 {
     color: #A7EB2B;
 }
 
@@ -101,9 +107,10 @@ nav {
     color: #14416E;
 }
 
-.innerBox  {
+.innerBox {
     min-height: 35vh;
 }
+
 .innerBox img {
     width: 20%;
 }
@@ -144,16 +151,19 @@ nav {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.8);
 }
-.footer h3{
-    font-weight: 700; 
+
+.footer h3 {
+    font-weight: 700;
     font-size: 20px;
 }
-.footer li a{
+
+.footer li a {
     font-weight: 400;
     font-size: 1.2vw;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.8);
 }
+
 .footerSubscribeButton {
     background: rgba(255, 255, 255, 0.15);
     width: 78%;
@@ -180,12 +190,17 @@ nav {
     font-size: 1.2vw;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.footerSubscribeButton button a {
     color: #0E508F;
 }
+
 
 .footerCopyRight p {
     font-size: 1.3vw;
 }
+
 /*  ############################# MOBILE ########################### */
 @media only screen and (max-width: 767px) {
     .upperDivSpan {
@@ -195,6 +210,7 @@ nav {
     .upperDiv {
         justify-content: center !important;
     }
+
     .navLogIn a {
         font-size: 2vw;
         color: white;
@@ -218,9 +234,11 @@ nav {
         font-size: 17px;
         text-align: center;
     }
-    .innerBox  {
+
+    .innerBox {
         min-height: 30vh;
     }
+
     .innerBox img {
         width: 20%;
     }
@@ -232,6 +250,7 @@ nav {
     .innerBox p {
         font-size: 3vw;
     }
+
     .footerSubscribeButton input {
         width: 74%;
     }
@@ -252,6 +271,7 @@ nav {
         font-size: 3vw;
     }
 }
+
 /*  ############################# MOBILE ########################### */
 @media only screen and (max-width: 576px) {
     .navLogIn a {
@@ -259,16 +279,28 @@ nav {
         color: white;
         text-align: center;
     }
+
+    .innerBox {
+        min-height: 26vh;
+    }
+
+    .innerBox p {
+        font-size: 2.5vw;
+    }
+
     .footerSubscribeButton input {
         width: 62%;
     }
+
     .footerSubscribeButton button {
         font-size: 3vw;
         font-weight: 700;
     }
+
     .list-unstyled a.text-light {
         font-size: 3.3vw;
     }
+
     .footerInfo {
         font-family: "Helvetica-light";
         font-size: 13px;

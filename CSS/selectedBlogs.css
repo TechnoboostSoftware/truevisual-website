@@ -111,6 +111,9 @@ nav {
     font-size: 1.2vw;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.footerSubscribeButton button a {
     color: #0E508F;
 }
 

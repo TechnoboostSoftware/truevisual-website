@@ -311,6 +311,9 @@ nav {
     font-size: 1.2vw;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.footerSubscribeButton button a {
     color: #0E508F;
 }
 
@@ -484,6 +487,9 @@ nav {
 
 /*  ############################# MOBILE ########################### */
 @media only screen and (max-width: 576px) {
+    .whiteBox {
+        min-height: 20vh;
+    }
     .navLogIn a {
         font-size: 3vw;
         color: white;
