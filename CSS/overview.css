@@ -91,7 +91,7 @@ nav {
 
 .storyContent h3 {
     font-weight: 700;
-    font-size: 2.5vw;
+    font-size: 2.3vw;
     color: #0E508F;
 }
 
@@ -104,7 +104,7 @@ nav {
 
 .storyContent h5 {
     font-weight: 400;
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     letter-spacing: 0.03em;
     color: #0E508F;
 }
@@ -125,6 +125,13 @@ nav {
 .requestAccount-2 {
     background: #0E508F;
 }
+.navAccount-2 {
+    background: #90DD01;
+    font-weight: 700;
+    font-size: 1.3vw;
+    color: white;
+    text-align: center;
+}
 
 .requestAccount-2 h1 {
     font-weight: 700;
@@ -132,7 +139,7 @@ nav {
     color: #FFFFFF;
 }
 
-.requestAccoun-2 p {
+.enabling {
     font-family: "Helvetica-light";
     font-size: 1.2vw;
 }
@@ -169,13 +176,13 @@ nav {
 
 .requestAccount h1 {
     font-weight: 700;
-    font-size: 2.6vw;
+    font-size: 2.5vw;
     color: #FFFFFF;
 }
 
 .requestAccount p {
     font-family: "Helvetica-light";
-    font-size: 1.3vw;
+    font-size: 1.2vw;
 }
 
 .signInAccount {
@@ -190,21 +197,22 @@ nav {
     background: #0E508F;
 }
 
-.footerIcon {
-    color: white;
-}
-
-.footerIcon i {
-    font-size: 2vw;
-}
-
 .footerInfo {
     font-family: "Helvetica-light";
     font-size: 17px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.8);
 }
-
+.footer h3{
+    font-weight: 700; 
+    font-size: 20px;
+}
+.footer li a{
+    font-weight: 400;
+    font-size: 1.2vw;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.8);
+}
 .footerSubscribeButton {
     background: rgba(255, 255, 255, 0.15);
     width: 78%;
@@ -216,24 +224,22 @@ nav {
     color: white;
     width: 65%;
 }
+
 .footerSubscribeButton input:focus {
     outline: none;
 }
+
 .footerSubscribeButton input::placeholder {
     color: white;
-  }
+}
 
 .footerSubscribeButton button {
     border: none;
-    font-family: "Helvetica-light";
+    font-weight: 700;
     font-size: 1.2vw;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #0E508F;
-}
-
-.footerCopyRight p {
-    font-size: 1.3vw;
 }
 
 .footerCopyRight p {
@@ -316,9 +322,11 @@ nav {
         font-size: 3.7vw;
         line-height: 25px;
     }
-
+    .enabling {
+        font-size: 2.2vw;
+    }
     .navAccount-2 {
-        font-size: 3.5vw;
+        font-size: 2vw;
     }
 
     .bg-mobile {
@@ -350,16 +358,16 @@ nav {
         font-weight: 700;
         font-size: 3vw;
     }
-
     .footerSubscribeButton input {
-        width: 71%;
+        width: 74%;
     }
 
     .footerSubscribeButton button {
         font-size: 2vw;
     }
+
     .list-unstyled a.text-light {
-        font-size: 3.6vw;
+        font-size: 2vw;
     }
 
     .footerIcon i {
@@ -372,7 +380,32 @@ nav {
 }
 /*  ############################# MOBILE ########################### */
 @media only screen and (max-width: 576px) {
+    .mainBtn-1 span {
+        font-size: 2.6vw;
+        padding: 10px 8px !important;
+    }
+    .requestAccount-2 h1 {
+        font-size: 3.8vw;
+        line-height: 25px;
+    }
+    .enabling {
+        font-size: 3.2vw;
+    }
+    .navAccount-2 {
+        font-size: 2.5vw;
+    }
     .footerSubscribeButton input {
-        width: 67%;
+        width: 62%;
+    }
+    .footerSubscribeButton button {
+        font-size: 3vw;
+        font-weight: 700;
+    }
+    .list-unstyled a.text-light {
+        font-size: 3.6vw;
+    }
+    .footerInfo {
+        font-family: "Helvetica-light";
+        font-size: 13px;
     }
 }

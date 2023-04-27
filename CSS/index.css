@@ -11,7 +11,6 @@
 }
 
 .upperDiv span {
-    font-family: 'Helvetica';
     font-style: normal;
     font-family: "Helvetica-light";
     font-size: 18px;
@@ -60,7 +59,7 @@ nav {
 
 .mainContent p {
     font-family: "Helvetica-light";
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     letter-spacing: 0.03em;
     color: #0E508F;
 }
@@ -104,7 +103,7 @@ nav {
 
 .storyContent p {
     font-family: "Helvetica-light";
-    font-size: 1.2vw;
+    font-size: 1.25vw;
     letter-spacing: 0.03em;
     color: #14416E;
 }
@@ -118,7 +117,7 @@ nav {
 
 .divThree h1 {
     font-weight: 700;
-    font-size: 3vw;
+    font-size: 35px;
     color: #0E508F;
 
 }
@@ -132,12 +131,12 @@ nav {
 
 .blueBox {
     background: #0E508F;
-    height: 28vh;
+    height: 23vh;
 }
 
 .blueBox h5 {
     font-weight: 700;
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
@@ -163,21 +162,27 @@ nav {
 
 .requestAccount h1 {
     font-weight: 700;
-    font-size: 2.8vw;
+    font-size: 2.7vw;
     text-align: center;
     color: #FFFFFF;
 }
-
+.reqAccount {
+    background: #90DD01;
+    font-weight: 700;
+    font-size: 1.2vw;
+    color: white;
+    text-align: center;
+}
 .features h3 {
     font-weight: 700;
-    font-size: 3vw;
+    font-size: 2.7vw;
     letter-spacing: 0.03em;
     color: #14416E;
 }
 
 .features h4 {
     font-weight: 700;
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     letter-spacing: 0.03em;
     color: #0E508F;
 }
@@ -195,14 +200,19 @@ nav {
 
 .industries h1 {
     font-weight: 700;
-    font-size: 3vw;
+    font-size: 2.7vw;
     letter-spacing: 0.03em;
     color: #14416E;
 }
-
-.industries p {
-    font-family: "Helvetica-light";
+.industriesRow-1 p {
+    font-weight: 700;
     font-size: 1.4vw;
+    letter-spacing: 0.03em;
+    color: #14416E;
+}
+.used{
+    font-family: "Helvetica-light";
+    font-size: 1.3vw;
     letter-spacing: 0.03em;
     color: #14416E;
 }
@@ -227,7 +237,6 @@ nav {
 .download h1 {
     font-weight: 700;
     font-size: 4vw;
-    line-height: 55px;
     letter-spacing: 0.03em;
 }
 
@@ -246,21 +255,22 @@ nav {
     background: #0E508F;
 }
 
-.footerIcon {
-    color: white;
-}
-
-.footerIcon i {
-    font-size: 2vw;
-}
-
 .footerInfo {
     font-family: "Helvetica-light";
     font-size: 17px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.8);
 }
-
+.footer h3{
+    font-weight: 700; 
+    font-size: 20px;
+}
+.footer li a{
+    font-weight: 400;
+    font-size: 1.2vw;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.8);
+}
 .footerSubscribeButton {
     background: rgba(255, 255, 255, 0.15);
     width: 78%;
@@ -283,15 +293,11 @@ nav {
 
 .footerSubscribeButton button {
     border: none;
-    font-family: "Helvetica-light";
+    font-weight: 700;
     font-size: 1.2vw;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #0E508F;
-}
-
-.footerCopyRight p {
-    font-size: 1.3vw;
 }
 
 .footerCopyRight p {
@@ -433,12 +439,13 @@ nav {
     }
 
     .download h1 {
-        font-size: 6vw;
+        font-size: 4vw;
         line-height: 55px;
     }
 
+
     .download p {
-        font-size: 4vw;
+        font-size: 2.5vw;
         color: rgba(255, 255, 255, 0.8);
     }
 
@@ -447,7 +454,7 @@ nav {
     }
 
     .footerSubscribeButton input {
-        width: 71%;
+        width: 74%;
     }
 
     .footerSubscribeButton button {
@@ -455,7 +462,7 @@ nav {
     }
 
     .list-unstyled a.text-light {
-        font-size: 3.6vw;
+        font-size: 2vw;
     }
 
     .footerIcon i {
@@ -468,7 +475,28 @@ nav {
 }
 /*  ############################# MOBILE ########################### */
 @media only screen and (max-width: 576px) {
+    .download h1 {
+        font-size: 6vw;
+        line-height: 55px;
+    }
+    .download p {
+        font-size: 4vw;
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    
     .footerSubscribeButton input {
-        width: 67%;
+        width: 62%;
+    }
+    .footerSubscribeButton button {
+        font-size: 3vw;
+        font-weight: 700;
+    }
+    .list-unstyled a.text-light {
+        font-size: 3.6vw;
+    }
+    .footerInfo {
+        font-family: "Helvetica-light";
+        font-size: 13px;
     }
 }

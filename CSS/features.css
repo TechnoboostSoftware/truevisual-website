@@ -10,7 +10,6 @@
 }
 
 .upperDiv span {
-    font-family: 'Helvetica';
     font-style: normal;
     font-family: "Helvetica-light";
     font-size: 18px;
@@ -58,7 +57,7 @@ nav {
 }
 
 .headerFeatures p {
-    font-family: "Helvetica-light";
+    font-weight: 400;
     font-size: 2vw;
 }
 .headingSpan-1{
@@ -133,21 +132,22 @@ nav {
     background: #0E508F;
 }
 
-.footerIcon {
-    color: white;
-}
-
-.footerIcon i {
-    font-size: 2vw;
-}
-
 .footerInfo {
     font-family: "Helvetica-light";
     font-size: 17px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.8);
 }
-
+.footer h3{
+    font-weight: 700; 
+    font-size: 20px;
+}
+.footer li a{
+    font-weight: 400;
+    font-size: 1.2vw;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.8);
+}
 .footerSubscribeButton {
     background: rgba(255, 255, 255, 0.15);
     width: 78%;
@@ -159,29 +159,27 @@ nav {
     color: white;
     width: 65%;
 }
+
 .footerSubscribeButton input:focus {
     outline: none;
 }
+
 .footerSubscribeButton input::placeholder {
     color: white;
-  }
+}
 
 .footerSubscribeButton button {
     border: none;
-    font-family: "Helvetica-light";
+    font-weight: 700;
     font-size: 1.2vw;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #0E508F;
 }
-.footerCopyRight p{
+
+.footerCopyRight p {
     font-size: 1.3vw;
 }
-.footerCopyRight p{
-    font-size: 1.3vw;
-}
-
-
 /*  ############################# MOBILE ########################### */
 @media only screen and (max-width: 767px) {
     .upperDivSpan {
@@ -235,19 +233,21 @@ nav {
         font-size: 3vw;
     }
     .footerSubscribeButton input {
-        width: 71%;
+        width: 74%;
     }
 
     .footerSubscribeButton button {
         font-size: 2vw;
     }
+
     .list-unstyled a.text-light {
-        font-size: 3.6vw;
+        font-size: 2vw;
     }
 
     .footerIcon i {
         font-size: 6vw;
     }
+
     .footerCopyRight p {
         font-size: 3vw;
     }
@@ -255,6 +255,17 @@ nav {
 /*  ############################# MOBILE ########################### */
 @media only screen and (max-width: 576px) {
     .footerSubscribeButton input {
-        width: 67%;
+        width: 62%;
+    }
+    .footerSubscribeButton button {
+        font-size: 3vw;
+        font-weight: 700;
+    }
+    .list-unstyled a.text-light {
+        font-size: 3.6vw;
+    }
+    .footerInfo {
+        font-family: "Helvetica-light";
+        font-size: 13px;
     }
 }

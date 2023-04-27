@@ -4,13 +4,13 @@
     font-family: 'Helvetica';
     font-style: normal;
 }
+
 @font-face {
     font-family: "Helvetica-light";
     src: url("../FONTS/HelveticaLightRegular.otf");
 }
 
 .upperDiv span {
-    font-family: 'Helvetica';
     font-style: normal;
     font-family: "Helvetica-light";
     font-size: 18px;
@@ -61,7 +61,7 @@ nav {
 
 .greyBox h4 {
     font-weight: 700;
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     letter-spacing: 0.03em;
     color: #0E508F;
 }
@@ -72,7 +72,7 @@ nav {
 
 .analysis h1 {
     font-weight: 700;
-    font-size: 2.5vw;
+    font-size: 2.3vw;
     color: #0E508F;
 }
 
@@ -89,7 +89,7 @@ nav {
 
 .requestAccount h1 {
     font-weight: 700;
-    font-size: 2.6vw;
+    font-size: 2.3vw;
     color: #FFFFFF;
 }
 
@@ -102,24 +102,28 @@ nav {
     background: white;
     color: #0E508F;
     font-weight: 700;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
 
 .footer {
     background: #0E508F;
 }
 
-.footerIcon {
-    color: white;
-}
-
-.footerIcon i {
-    font-size: 2vw;
-}
-
 .footerInfo {
     font-family: "Helvetica-light";
     font-size: 17px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer h3 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer li a {
+    font-weight: 400;
+    font-size: 1.2vw;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.8);
 }
@@ -135,16 +139,18 @@ nav {
     color: white;
     width: 65%;
 }
+
 .footerSubscribeButton input:focus {
     outline: none;
 }
+
 .footerSubscribeButton input::placeholder {
     color: white;
-  }
+}
 
 .footerSubscribeButton button {
     border: none;
-    font-family: "Helvetica-light";
+    font-weight: 700;
     font-size: 1.2vw;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -154,16 +160,6 @@ nav {
 .footerCopyRight p {
     font-size: 1.3vw;
 }
-
-.footerCopyRight p {
-    font-size: 1.3vw;
-}
-
-.footerCopyRight p {
-    font-size: 1.3vw;
-}
-
-
 
 /*  ############################# MOBILE ########################### */
 @media only screen and (max-width: 767px) {
@@ -199,33 +195,36 @@ nav {
         font-size: 3vw;
     }
 
+
     .requestAccount h1 {
-        font-size: 3.5vw;
+        font-size: 3vw;
     }
 
     .requestAccount p {
-        font-size: 3vw;
+        font-size: 2vw;
     }
+
 
     .analysis h1 {
-        font-size: 5vw;
-        text-align: center;
-    }
-
-    .analysis p {
         font-size: 3vw;
         text-align: center;
     }
+    .analysis p {
+        font-size: 2.3vw;
+        text-align: center;
+    }
+
 
     .footerSubscribeButton input {
-        width: 71%;
+        width: 74%;
     }
 
     .footerSubscribeButton button {
         font-size: 2vw;
     }
+
     .list-unstyled a.text-light {
-        font-size: 3.6vw;
+        font-size: 2vw;
     }
 
     .footerIcon i {
@@ -236,9 +235,41 @@ nav {
         font-size: 3vw;
     }
 }
+
 /*  ############################# MOBILE ########################### */
 @media only screen and (max-width: 576px) {
+    .analysis p {
+        font-size: 3.5vw;
+        text-align: center;
+    }
+
+    .analysis h1 {
+        font-size: 5vw;
+        text-align: center;
+    }
+    .requestAccount h1 {
+        font-size: 5vw;
+    }
+
+    .requestAccount p {
+        font-size: 3.1vw;
+    }
+
     .footerSubscribeButton input {
-        width: 67%;
+        width: 62%;
+    }
+
+    .footerSubscribeButton button {
+        font-size: 3vw;
+        font-weight: 700;
+    }
+
+    .list-unstyled a.text-light {
+        font-size: 3.6vw;
+    }
+
+    .footerInfo {
+        font-family: "Helvetica-light";
+        font-size: 13px;
     }
 }
