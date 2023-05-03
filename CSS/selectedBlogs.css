@@ -33,22 +33,21 @@ nav {
 .navLogIn {
     background: #5d86ad;
     font-weight: 500;
-    font-size: 1.3vw;
-    color: white;
-    text-align: center;
-}
-.navLogIn a{
-    font-weight: 700;
-    font-size: 1.3vw;
     color: white;
     text-align: center;
 }
 
+.navLogIn a {
+    font-weight: 700;
+    font-size: 16px;
+    color: #0E508F;
+    text-align: center;
+}
+
 .navAccount {
-    background: #90DD01;
     font-weight: 500;
     font-size: 1.3vw;
-    color: white;
+    background: white;
     text-align: center;
 }
 
@@ -94,7 +93,6 @@ nav {
     border: none;
     background: transparent;
     color: white;
-    width: 65%;
 }
 
 .footerSubscribeButton input:focus {
@@ -131,8 +129,6 @@ nav {
         justify-content: center !important;
     }
     .navLogIn a {
-        font-size: 2vw;
-        color: white;
         text-align: center;
     }
     .headerBlogs h1 {
@@ -141,9 +137,7 @@ nav {
     .contentBlog p {
         font-size: 2.5vw;
     }
-    .footerSubscribeButton input {
-        width: 74%;
-    }
+
 
     .footerSubscribeButton button {
         font-size: 2vw;
@@ -168,9 +162,7 @@ nav {
         color: white;
         text-align: center;
     }
-    .footerSubscribeButton input {
-        width: 62%;
-    }
+
     .footerSubscribeButton button {
         font-size: 3vw;
         font-weight: 700;

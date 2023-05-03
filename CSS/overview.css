@@ -31,25 +31,29 @@ nav {
 .navLogIn {
     background: #5d86ad;
     font-weight: 500;
-    font-size: 1.3vw;
     color: white;
     text-align: center;
 }
-.navLogIn a{
+
+.navLogIn a {
     font-weight: 700;
-    font-size: 1.3vw;
-    color: white;
+    font-size: 16px;
+    color: #0E508F;
     text-align: center;
 }
 
 .navAccount {
-    background: #90DD01;
     font-weight: 500;
     font-size: 1.3vw;
-    color: white;
+    background: white;
     text-align: center;
 }
-
+.mainBtn-1 a {
+    font-weight: 700;
+    font-size: 1.3vw;
+    text-align: center;
+    color: #FFFFFF;
+}
 .mainContent h1 {
     font-weight: 700;
     font-size: 4vw;
@@ -190,9 +194,13 @@ nav {
     font-family: "Helvetica-light";
     font-size: 1.2vw;
 }
-
-.signInAccount {
+.signInAccount{
     background: white;
+}
+.signInAccount:hover{
+    background: white;
+}
+.signInAccount a{
     color: #0E508F;
     font-weight: 700;
     font-size: 1.2vw;
@@ -228,7 +236,6 @@ nav {
     border: none;
     background: transparent;
     color: white;
-    width: 65%;
 }
 
 .footerSubscribeButton input:focus {
@@ -266,8 +273,6 @@ nav {
         justify-content: center !important;
     }
     .navLogIn a {
-        font-size: 2vw;
-        color: white;
         text-align: center;
     }
 
@@ -360,9 +365,7 @@ nav {
         font-weight: 700;
         font-size: 3vw;
     }
-    .footerSubscribeButton input {
-        width: 74%;
-    }
+
 
     .footerSubscribeButton button {
         font-size: 2vw;
@@ -401,9 +404,7 @@ nav {
     .navAccount-2 {
         font-size: 2.5vw;
     }
-    .footerSubscribeButton input {
-        width: 62%;
-    }
+
     .footerSubscribeButton button {
         font-size: 3vw;
         font-weight: 700;
