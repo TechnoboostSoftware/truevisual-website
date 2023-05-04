@@ -291,7 +291,6 @@ nav {
 @media only screen and (max-width: 576px) {
     .navLogIn a {
         font-size: 3vw;
-        color: white;
         text-align: center;
     }
 
@@ -303,6 +302,9 @@ nav {
         font-size: 2.5vw;
     }
 
+    .footer li p {
+        font-size: 3vw;
+    }
     .footerSubscribeButton button {
         font-size: 3vw;
         font-weight: 700;

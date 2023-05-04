@@ -72,7 +72,7 @@ nav {
 
 .mainContent h1 {
     font-weight: 700;
-    font-size: 5vw;
+    font-size: 4.5vw;
     color: #0E508F;
 }
 
@@ -407,19 +407,11 @@ nav {
     }
 
     .blueBox h5 {
-        font-size: 3.7vw;
+        font-size: 3.3vw;
     }
 
     .blueBox p {
-        font-size: 2.5vw;
-    }
-
-    .blueBoxRight h5 {
-        font-size: 3.7vw;
-    }
-
-    .blueBoxRight p {
-        font-size: 2.5vw;
+        font-size: 2vw;
     }
 
     .requestAccount h1 {
@@ -470,7 +462,6 @@ nav {
         line-height: 55px;
     }
 
-
     .download p {
         font-size: 2.5vw;
         color: rgba(255, 255, 255, 0.8);
@@ -479,8 +470,6 @@ nav {
     .downloadImg {
         justify-content: center;
     }
-
-
 
     .footerSubscribeButton button {
         font-size: 2vw;
@@ -492,7 +481,6 @@ nav {
     .footer li p{
         font-size: 2vw;
     }
-
     .footerIcon i {
         font-size: 6vw;
     }
@@ -510,7 +498,6 @@ nav {
 
     .navLogIn a {
         font-size: 3vw;
-        color: white;
         text-align: center;
     }
 
@@ -523,10 +510,16 @@ nav {
         font-size: 4vw;
         color: rgba(255, 255, 255, 0.8);
     }
+    .blueBox h5 {
+        font-size: 4.5vw;
+    }
 
-
-
-
+    .blueBox p {
+        font-size: 3.5vw;
+    }
+    .footer li p {
+        font-size: 3vw;
+    }
     .footerSubscribeButton button {
         font-size: 3vw;
         font-weight: 700;

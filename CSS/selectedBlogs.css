@@ -184,11 +184,13 @@ nav {
 @media only screen and (max-width: 576px) {
     .navLogIn a {
         font-size: 3vw;
-        color: white;
         text-align: center;
     }
     .blogImg{
         height: 40vh;
+    }
+    .footer li p {
+        font-size: 3vw;
     }
     .footerSubscribeButton button {
         font-size: 3vw;
