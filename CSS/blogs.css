@@ -4,14 +4,17 @@
     font-family: 'Helvetica';
     font-style: normal;
 }
+
 @font-face {
     font-family: "Helvetica-light";
     src: url("../FONTS/HelveticaLightRegular.otf");
 }
-.btn-blue{
+
+.btn-blue {
     background: #0E508F;
     color: #fff;
 }
+
 .upperDiv span {
     font-style: normal;
     font-family: "Helvetica-light";
@@ -87,13 +90,17 @@ nav {
     font-weight: 400;
     font-size: 2vw;
 }
-.headingSpan-1{
-    color: rgba(14, 80, 143, 0.41);;
+
+.headingSpan-1 {
+    color: rgba(14, 80, 143, 0.41);
+    ;
 }
-.headingSpan-2{
+
+.headingSpan-2 {
     color: #0E508F;
 }
-.headingSpan-3{
+
+.headingSpan-3 {
     color: #A7EB2B;
 }
 
@@ -110,10 +117,12 @@ nav {
     letter-spacing: 0.03em;
     color: #0E508F;
 }
-.btn-blue:hover{
+
+.btn-blue:hover {
     background: #0E508F;
     color: #fff;
 }
+
 .footer {
     background: #0E508F;
 }
@@ -124,16 +133,19 @@ nav {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.8);
 }
-.footer h3{
-    font-weight: 700; 
+
+.footer h3 {
+    font-weight: 700;
     font-size: 20px;
 }
-.footer li a{
+
+.footer li a {
     font-weight: 400;
     font-size: 1.2vw;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.8);
 }
+
 .footerSubscribeButton {
     background: rgba(255, 255, 255, 0.15);
     width: 78%;
@@ -165,9 +177,10 @@ nav {
     color: #0E508F;
 }
 
-.footer li p{
+.footer li p {
     font-size: 1.2vw;
 }
+
 .footerCopyRight p {
     font-size: 1.3vw;
 }
@@ -182,6 +195,7 @@ nav {
     .upperDiv {
         justify-content: center !important;
     }
+
     .navLogIn a {
         text-align: center;
     }
@@ -203,7 +217,7 @@ nav {
     }
 
     .card-body a {
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
 
 
@@ -215,7 +229,8 @@ nav {
     .list-unstyled a.text-light {
         font-size: 2vw;
     }
-    .footer li p{
+
+    .footer li p {
         font-size: 2vw;
     }
 
@@ -227,6 +242,7 @@ nav {
         font-size: 3vw;
     }
 }
+
 /*  ############################# MOBILE ########################### */
 @media only screen and (max-width: 576px) {
     .navLogIn a {
@@ -234,16 +250,23 @@ nav {
         text-align: center;
     }
 
+    .card-body a {
+        font-size: 2vw;
+    }
+
     .footer li p {
         font-size: 3vw;
     }
+
     .footerSubscribeButton button {
         font-size: 3vw;
         font-weight: 700;
     }
+
     .list-unstyled a.text-light {
         font-size: 3.3vw;
     }
+
     .footerInfo {
         font-family: "Helvetica-light";
         font-size: 13px;
