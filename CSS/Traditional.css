@@ -31,10 +31,21 @@ nav {
     color: white;
 }
 
-.navHover:hover {
+.navHover a:hover {
+    background: #0E508F;
+    color: white !important;
+}
+
+
+.navLogIn:hover {
+    background: #5d86ad;
+    color: white !important;
+}
+
+
+.navAccount:hover {
     background: white;
-    color: black;
-    border-radius: 30px;
+    color: #0E508F;
 }
 
 .navLogIn {
@@ -113,7 +124,10 @@ nav {
     font-weight: 700;
     font-size: 1.3vw;
 }
-
+.signInAccount:hover{
+    color: #0E508F;
+    background: white;
+}
 .footer {
     background: #0E508F;
 }

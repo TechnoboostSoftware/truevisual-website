@@ -28,10 +28,21 @@ nav {
     color: white;
 }
 
-.navHover:hover {
+.navHover a:hover {
+    background: #0E508F;
+    color: white !important;
+}
+
+
+.navLogIn:hover {
+    background: #5d86ad;
+    color: white !important;
+}
+
+
+.navAccount:hover {
     background: white;
-    color: black;
-    border-radius: 30px;
+    color: #0E508F;
 }
 
 .navLogIn {
@@ -161,7 +172,7 @@ nav {
 }
 
 .bgGreen {
-    background: linear-gradient(98.25deg, #0E508F 22.36%, #A7EB2B 98.94%);
+    background: linear-gradient(99.02deg, #0E508F -0.53%, #14416E 89.66%);
 }
 
 .projects h1 {
