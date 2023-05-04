@@ -21,11 +21,17 @@ nav {
 .active {
     background: white;
     color: #0E508F;
-
+    border-radius: 30px;
 }
 
 .nav-link {
     color: white;
+}
+
+.navHover:hover {
+    background: white;
+    color: black;
+    border-radius: 30px;
 }
 
 .navLogIn {
@@ -81,16 +87,16 @@ nav {
     background: rgba(14, 80, 143, 0.07);
 }
 
-.mainBtn-1 span {
+.mainBtn-1 a {
     font-weight: 700;
-    font-size: 1.3vw;
+    font-size: 16px;
     text-align: center;
     color: #FFFFFF;
 }
 
-.mainBtn-2 span {
+.mainBtn-2 a {
     font-weight: 700;
-    font-size: 1.3vw;
+    font-size: 16px;
     text-align: center;
     color: #0E508F;
 }
@@ -258,6 +264,9 @@ nav {
     color: #0E508F;
 }
 
+.footer li p{
+    font-size: 1.2vw;
+}
 .footerCopyRight p {
     font-size: 1.3vw;
 }
@@ -372,6 +381,9 @@ nav {
     }
 
     .list-unstyled a.text-light {
+        font-size: 2vw;
+    }
+    .footer li p{
         font-size: 2vw;
     }
 

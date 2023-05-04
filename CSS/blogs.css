@@ -26,10 +26,17 @@ nav {
 .active {
     background: white;
     color: #0E508F;
+    border-radius: 30px;
 }
 
 .nav-link {
     color: white;
+}
+
+.navHover:hover {
+    background: white;
+    color: black;
+    border-radius: 30px;
 }
 
 .navLogIn {
@@ -62,10 +69,7 @@ nav {
 .headerFeatures h1 {
     font-weight: 700;
     font-size: 5vw;
-    background: linear-gradient(91.76deg, #0E508F 3.27%, #A7EB2B 142.93%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: #0E508F;
 }
 
 .headerFeatures p {
@@ -95,7 +99,10 @@ nav {
     letter-spacing: 0.03em;
     color: #0E508F;
 }
-
+.btn-blue:hover{
+    background: #0E508F;
+    color: #fff;
+}
 .footer {
     background: #0E508F;
 }
@@ -147,6 +154,9 @@ nav {
     color: #0E508F;
 }
 
+.footer li p{
+    font-size: 1.2vw;
+}
 .footerCopyRight p {
     font-size: 1.3vw;
 }
@@ -192,6 +202,9 @@ nav {
     }
 
     .list-unstyled a.text-light {
+        font-size: 2vw;
+    }
+    .footer li p{
         font-size: 2vw;
     }
 

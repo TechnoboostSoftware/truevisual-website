@@ -23,11 +23,16 @@ nav {
 .active {
     background: white;
     color: #0E508F;
-
+    border-radius: 30px;
 }
-
 .nav-link {
     color: white;
+}
+
+.navHover:hover {
+    background: white;
+    color: black;
+    border-radius: 30px;
 }
 
 .navLogIn {
@@ -56,7 +61,10 @@ nav {
     font-size: 3vw;
     color: #14416E;
 }
-
+.blogImg{
+    width: 100%;
+    height: 70vh;
+}
 .contentBlog p {
     font-family: "Helvetica-light";
     font-size: 1.3vw;
@@ -115,6 +123,9 @@ nav {
     color: #0E508F;
 }
 
+.footer li p{
+    font-size: 1.2vw;
+}
 .footerCopyRight p {
     font-size: 1.3vw;
 }
@@ -146,6 +157,9 @@ nav {
     .list-unstyled a.text-light {
         font-size: 2vw;
     }
+    .footer li p{
+        font-size: 2vw;
+    }
 
     .footerIcon i {
         font-size: 6vw;
@@ -162,7 +176,9 @@ nav {
         color: white;
         text-align: center;
     }
-
+    .blogImg{
+        height: 40vh;
+    }
     .footerSubscribeButton button {
         font-size: 3vw;
         font-weight: 700;
