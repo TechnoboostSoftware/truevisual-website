@@ -72,20 +72,19 @@ nav {
     color: #0E508F !important;
     text-align: center;
 }
-.mainBtn-1 a {
+.mainBtn-1{
     font-weight: 700;
     font-size: 1.3vw;
     text-align: center;
     color: #FFFFFF;
 }
+.mainBtn-1:hover{
+    color: white;
+}
 .mainContent h1 {
     font-weight: 700;
     font-size: 4vw;
     color: #0E508F;
-}
-
-.green {
-    color: #90DD01;
 }
 
 .mainContent p {
