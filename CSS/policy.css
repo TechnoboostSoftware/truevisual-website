@@ -47,11 +47,21 @@ nav {
 .nav-link {
     color: white;
 }
-.navHover a:hover {
-    background: #0E508F;
+.navHover :hover {
+    background: #5d86ad;
     color: white !important;
+    border-radius: 30px;
 }
 
+
+.nav-link {
+    color: white;
+}
+.navHover :hover {
+    background: #5d86ad;
+    color: white !important;
+    border-radius: 30px;
+}
 
 .navLogIn:hover {
     background: #5d86ad;
@@ -61,19 +71,14 @@ nav {
 
 .navAccount:hover {
     background: white;
-    color: #0E508F;
+    color: #0E508F !important;
 }
 .dropdown-menu li a:hover .navHover{
     color: white !important;
 }
+
 .navLogIn {
     background: #5d86ad;
-    font-weight: 500;
-    color: white;
-    text-align: center;
-}
-
-.navLogIn a {
     font-weight: 700;
     font-size: 16px;
     color: #0E508F;
@@ -81,9 +86,10 @@ nav {
 }
 
 .navAccount {
-    font-weight: 500;
-    font-size: 1.3vw;
+    font-weight: 700;
+    font-size: 16px;
     background: white;
+    color: #0E508F !important;
     text-align: center;
 }
 .headerFeatures h1 {
@@ -193,10 +199,11 @@ nav {
         min-height: 20vh;
     }
 
-    .navLogIn a {
+    .navLogIn, .navAccount{
         font-size: 3vw;
         text-align: center;
     }
+
     .footer li p {
         font-size: 3vw;
     }
