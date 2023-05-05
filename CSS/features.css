@@ -10,7 +10,7 @@
     src: url("../FONTS/HelveticaLightRegular.otf");
 }
 
-.upperDiv span {
+.upperDiv a {
     font-style: normal;
     font-family: "Helvetica-light";
     font-size: 18px;

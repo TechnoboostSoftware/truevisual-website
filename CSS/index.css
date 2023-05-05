@@ -10,7 +10,7 @@
     src: url("../FONTS/HelveticaLightRegular.otf");
 }
 
-.upperDiv span {
+.upperDiv a {
     font-style: normal;
     font-family: "Helvetica-light";
     font-size: 18px;
@@ -35,12 +35,18 @@ nav {
     color: white !important;
     border-radius: 30px;
 }
-
+.nav-link {
+    color: white;
+}
+.navHover :hover {
+    background: #5d86ad;
+    color: white !important;
+    border-radius: 30px;
+}
 .navLogIn:hover {
     background: #5d86ad;
     color: white !important;
 }
-
 
 .navAccount:hover {
     background: white;
@@ -65,7 +71,6 @@ nav {
     color: #0E508F !important;
     text-align: center;
 }
-
 .mainContent h1 {
     font-weight: 700;
     font-size: 4.5vw;
