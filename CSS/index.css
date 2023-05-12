@@ -273,11 +273,13 @@ nav {
 }
 
 .downloadLink {
-    width: 35%;
+    /* width: 35%; */
+    height: 65px;
 }
 
 .footer {
-    background: #0E508F;
+    /* background: #0E508F; */
+    background:#14416E;
 }
 
 .footerInfo {

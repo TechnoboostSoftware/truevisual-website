@@ -159,7 +159,7 @@ nav {
 }
 
 .footer {
-    background: #0E508F;
+    background: #14416E
 }
 
 .footerInfo {
@@ -251,7 +251,7 @@ nav {
 
     .boxWriting p {
         font-size: 17px;
-        text-align: center;
+        text-align: justify;
     }
 
     .innerBox {

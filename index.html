@@ -19,13 +19,19 @@
             crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <style>
+            /* .container-fluid{
+                padding-right: 3rem ;
+                padding-left: 3rem 
+            } */
+        </style>
     </head>
 
     <body>
         <!-- ############################# LOGO #############################-->
 
-        <div class="container-fluid">
-            <div class="upperDiv d-flex justify-content-between align-items-center ps-3 my-2">
+        <div class="container-fluid px-md-5 px-3">
+            <div class="upperDiv d-flex justify-content-between align-items-center my-2">
                 <div class="logoImg "><a href="index.html"><img src="IMAGES/logo.svg" class="center"></a></div>
                 <div class="d-flex upperDivSpan">
                     <a href="tel:+91-7019506095" class="text-decoration-none mx-4">Sales:
@@ -37,14 +43,14 @@
         <!-- ############################# NAVBAR #############################-->
 
         <nav class="navbar navbar-expand-md py-2">
-            <div class="container-fluid">
+            <div class="container-fluid px-md-5 px-3">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 ps-3 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item me-3 ">
                             <a class="nav-link active py-2 px-4" aria-current="page" href="index.html">Home</a>
                         </li>
@@ -53,10 +59,10 @@
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Retail Agency
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="overview.html">Overview</a></li>
-                                <li><a class="dropdown-item" href="features.html">Features</a></li>
-                                <li><a class="dropdown-item" href="blogs.html">Blog</a></li>
+                            <ul class="dropdown-menu bg-white rounded" aria-labelledby="navbarDropdown" >
+                                <li><a class="dropdown-item rounded-0" href="overview.html">Overview</a></li>
+                                <li><a class="dropdown-item rounded-0" href="features.html">Features</a></li>
+                                <li><a class="dropdown-item rounded-0" href="blogs.html">Blog</a></li>
                             </ul>
                         </li>
                         <li class="nav-item me-3 navHover">
@@ -78,8 +84,8 @@
         <!-- ############################# MAIN #############################-->
         <main id="main">
             <section id="hero">
-                <div class="container py-md-5 py-2">
-                    <div class="row main align-items-center px-3 py-3">
+                <div class="container-fluid px-md-5 px-3 py-md-5 py-2">
+                    <div class="row main align-items-center  py-3">
                         <div class="mainContent col-md-7 col-sm-12 ">
                             <h1 class="pe-3">Capture & Share Trustable Visual Proofs For
                                 Anything
@@ -91,7 +97,7 @@
                                 authentic.</p>
                             <div class=" mainForm d-flex my-5">
                                 <a href="http://app.truevisual.io/signuptype"
-                                    class="text-decoration-none mainBtn-1 btn  mx-2 rounded-pill px-md-4 py-md-3 px-4 py-2">REQUEST
+                                    class="text-decoration-none mainBtn-1 btn  rounded-pill px-md-4 py-md-3 px-4 py-2">REQUEST
                                     ACCOUNT</a>
                             </div>
                         </div>
@@ -103,7 +109,7 @@
             </section>
             <!-- ############################# STORY #############################-->
             <section id="story">
-                <div class="story container">
+                <div class="story container ">
                     <div class="row  flex-md-row flex-column-reverse">
                         <div class="col-md-4 col-sm-12 text-center">
                             <div class="px-5 px-md-0">
@@ -132,7 +138,7 @@
             </section>
             <!-- ############################# divThree #############################-->
             <section id="divThree">
-                <div class="divThree my-5 container">
+                <div class="divThree my-5 px-md-5 px-3 container-fluid">
                     <div class="text-center  my-5">
                         <h1>Engineered to Capture Visual Truth</h1>
                     </div>
@@ -141,7 +147,7 @@
                         <div class="col-md-4 col-sm-12 d-flex d-md-none align-items-center justify-content-center"><img
                                 src="IMAGES/mobileWithNo.svg" class="w-75">
                         </div>
-                        <div class="col-md-4 col-sm-12 px-3 px-md-4 pt-5 pt-md-0">
+                        <div class="col-md-4 col-sm-12  pt-5 pt-md-0">
                             <h4 class="px-4  px-md-0">Capture Visuals Proofs with Essential Parameters</h4>
                             <div class="d-flex flex-column">
                                 <div class="blueBox align-items-center d-flex rounded my-1 px-3 px-md-4 py-2 d-flex ">
@@ -182,7 +188,7 @@
                         <div class="col-md-4 col-sm-12 d-none d-md-flex align-items-center justify-content-center"><img
                                 src="IMAGES/iphone-12-mini.svg" class="middle w-100">
                         </div>
-                        <div class="col-md-4 col-sm-12 px-3 px-md-4 pt-5 pt-md-0">
+                        <div class="col-md-4 col-sm-12  pt-5 pt-md-0">
                             <h4 class="px-4 px-md-0">Once Captured, Cannot be Altered</h4>
                             <div class="d-flex flex-column ">
                                 <div class="blueBox align-items-center d-flex rounded blueBoxRight my-1 px-3 px-md-4">
@@ -232,19 +238,24 @@
                 </div>
             </section>
             <!-- ############################# requestAccount #############################-->
-            <section id="requestAccount">
-                <div class="requestAccount text-center container rounded px-md-4 py-md-5 px-0 py-4">
-                    <h1 class="px-2 py-3 px-md-3 py-md-5">It's easy to get started and there is a free plan. Flexible to
-                        adapt to any requirement, give it a try</h1>
-                    <a href="http://app.truevisual.io/"
-                        class="text-decoration-none btn navLogIn navAccount rounded-pill px-3 py-2">REQUEST FREE
-                        ACCOUNT</a>
+            <section id="requestAccount" class="container-fluid px-md-5 px-3 ">
+                <div class="row">
+                    <div class="col-12">
 
+                        <div class="requestAccount text-center rounded  py-md-5 py-4">
+                            <h1 class="px-2 py-3 px-md-3 py-md-5">It's easy to get started and there is a free plan. Flexible to
+                                adapt to any requirement, give it a try</h1>
+                            <a href="http://app.truevisual.io/"
+                                class="text-decoration-none btn navLogIn navAccount rounded-pill px-3 py-2">REQUEST FREE
+                                ACCOUNT</a>
+        
+                        </div>
+                    </div>
                 </div>
             </section>
             <!-- ############################# features #############################-->
             <section id="features">
-                <div class="features pt-5 container">
+                <div class="features pt-5 container-fluid px-md-5 px-3">
                     <div class="row py-md-5 py-0 align-items-center">
                         <div class="col-md-6 col-sm-12">
                             <div class="pe-ms-5 pe-0">
@@ -300,7 +311,7 @@
             </section>
             <!-- ############################# features-2 #############################-->
             <section id="features2">
-                <div class="features container">
+                <div class="features container-fluid px-md-5 px-3">
                     <div class="row py-md-5 py-0 align-items-center">
                         <div class="col-md-6 col-sm-12 d-none d-md-flex justify-content-center">
                             <img src="IMAGES/iphone-12.svg" width="38%">
@@ -406,7 +417,7 @@
             </section>
             <!-- ############################# clients #############################-->
             <section id="clients">
-                <div class="clients container my-5">
+                <div class="clients container-fluid px-md-5 px-3 my-5">
                     <div class="text-center mb-5">
                         <h1>Our Clients</h1>
                         <p class="py-3">Few of the prestigious clients</p>
@@ -428,8 +439,8 @@
                 </div>
             </section>
             <!-- ############################# DOWNLOAD #############################-->
-            <section id="download">
-                <div class="download container my-5">
+            <section id="download" class="container-fluid px-md-5 px-4">
+                <div class="download rounded my-5">
                     <div class="row align-items-center flex-md-row flex-column-reverse ">
                         <div class="col-md-6 col-sm-12 d-flex justify-content-center pt-5 ">
                             <img src="IMAGES/downloadMobiles.svg" class="d-md-flex d-none w-75 ">
@@ -441,7 +452,8 @@
                                 </h1>
                             </div>
                             <div class="px-md-3 px-2 d-flex downloadImg">
-                                <img src="IMAGES/google.svg" class="downloadLink">
+                                <a href="https://play.google.com/store/apps/details?id=com.truevisual.monitor">
+                                <img src="IMAGES/google.svg" class="downloadLink"></a>
                                 <!-- <img src="IMAGES/apple.svg" class="downloadLink"> -->
                             </div>
                         </div>
@@ -452,9 +464,9 @@
         <!-- ############################# FOOTER #############################-->
         <footer class=" bg-main ">
             <div class="footer mt-5">
-                <div class="row container-fluid py-5 px-2 m-0">
-                    <div class="col-md-6 col-12  px-3 text-md-start text-center align-items-start pe-md-5 px-2">
-                        <div class="d-flex flex-column pe-md-5 px-2">
+                <div class="row container-fluid py-5 px-md-5 px-3 m-0">
+                    <div class="col-md-6 col-12 text-md-start text-center align-items-start">
+                        <div class="d-flex flex-column">
                             <div class="pb-4"> <img src="IMAGES/footerLogo.svg"></div>
                             <div class="pb-4">
                                 <p class="footerInfo">To build trust between people & organization by enabling the
@@ -462,7 +474,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2 col-6 pt-md-0 pt-5 ps-sm-0 ps-3">
+                    <div class="col-md-2 col-6 pt-md-0 pt-5">
                         <h3 class="text-light pb-3">Company</h3>
                         <ul class="list-unstyled mb-2">
                             <li class="mb-2"><a href="" class="text-light text-decoration-none">Terms and Conditions</a>
@@ -499,7 +511,7 @@
                     </div>
 
                 </div>
-                <div class="footerCopyRight text-light text-center mx-5 pt-3 border-top">
+                <div class="footerCopyRight text-light text-center mx-md-5 px-3 pt-3 border-top">
                     <p class="mb-0 py-3">© Copyright 2023 All right reserved by Truevisual</p>
                 </div>
             </div>
