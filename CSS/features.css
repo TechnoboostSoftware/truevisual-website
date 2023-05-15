@@ -159,7 +159,8 @@ nav {
 }
 
 .footer {
-    background: #14416E
+    /* background: #0E508F; */
+    background:#14416E;
 }
 
 .footerInfo {
@@ -212,9 +213,6 @@ nav {
     color: #0E508F;
 }
 
-.footer li p{
-    font-size: 1.2vw;
-}
 .footer li p{
     font-size: 1.2vw;
 }
@@ -271,15 +269,11 @@ nav {
     }
 
 
-
-    .footerSubscribeButton button {
+.footerSubscribeButton button {
         font-size: 2vw;
     }
 
     .list-unstyled a.text-light {
-        font-size: 2vw;
-    }
-    .footer li p{
         font-size: 2vw;
     }
     .footer li p{

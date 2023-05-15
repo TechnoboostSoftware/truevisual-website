@@ -131,7 +131,8 @@ nav {
 }
 
 .footer {
-    background: #14416E;
+    /* background: #0E508F; */
+    background:#14416E;
 }
 
 .footerInfo {
@@ -184,14 +185,12 @@ nav {
     color: #0E508F;
 }
 
-.footer li p {
+.footer li p{
     font-size: 1.2vw;
 }
-
 .footerCopyRight p {
     font-size: 1.3vw;
 }
-
 
 /*  ############################# MOBILE ########################### */
 @media only screen and (max-width: 767px) {

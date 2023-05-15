@@ -221,7 +221,8 @@ nav {
 
 
 .footer {
-    background: #14416E
+    /* background: #0E508F; */
+    background:#14416E;
 }
 
 .footerInfo {
@@ -230,16 +231,19 @@ nav {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.8);
 }
-.footer h3{
-    font-weight: 700; 
+
+.footer h3 {
+    font-weight: 700;
     font-size: 20px;
 }
-.footer li a{
+
+.footer li a {
     font-weight: 400;
     font-size: 1.2vw;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.8);
 }
+
 .footerSubscribeButton {
     background: rgba(255, 255, 255, 0.15);
     width: 78%;
@@ -277,6 +281,7 @@ nav {
 .footerCopyRight p {
     font-size: 1.3vw;
 }
+
 
 
 /*  ############################# MOBILE ########################### */
@@ -385,7 +390,7 @@ nav {
     }
 
 
-    .footerSubscribeButton button {
+.footerSubscribeButton button {
         font-size: 2vw;
     }
 
@@ -395,7 +400,6 @@ nav {
     .footer li p{
         font-size: 2vw;
     }
-
     .footerIcon i {
         font-size: 6vw;
     }
