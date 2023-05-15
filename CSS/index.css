@@ -26,6 +26,9 @@ nav {
     color: #0E508F;
     border-radius: 30px;
 }
+.navbar-toggler:focus{
+    box-shadow:unset!important
+}
 
 .nav-link {
     color: white;
@@ -341,6 +344,11 @@ nav {
 
 /*  ############################# MOBILE ########################### */
 @media only screen and (max-width: 767px) {
+    .active{
+        background: unset;
+        color: white!important;
+        border-radius:unset;
+    }
     .upperDivSpan {
         display: none !important;
     }
