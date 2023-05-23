@@ -4,6 +4,7 @@
     font-family: 'Helvetica';
     font-style: normal;
 }
+
 @font-face {
     font-family: "Helvetica-light";
     src: url("../FONTS/HelveticaLightRegular.otf");
@@ -25,9 +26,11 @@ nav {
     color: #0E508F;
     border-radius: 30px;
 }
+
 .nav-link {
     color: white;
 }
+
 .navHover :hover {
     background: #5d86ad;
     color: white !important;
@@ -38,6 +41,7 @@ nav {
 .nav-link {
     color: white;
 }
+
 .navHover :hover {
     background: #5d86ad;
     color: white !important;
@@ -54,7 +58,8 @@ nav {
     background: white;
     color: #0E508F !important;
 }
-.dropdown-menu li a:hover .navHover{
+
+.dropdown-menu li a:hover .navHover {
     color: white !important;
 }
 
@@ -79,10 +84,12 @@ nav {
     font-size: 4vw;
     color: #14416E;
 }
-.blogImg{
+
+.blogImg {
     width: 100%;
     height: 70vh;
 }
+
 .contentBlog p {
     font-family: "Helvetica-light";
     font-size: 1.3vw;
@@ -90,16 +97,24 @@ nav {
     letter-spacing: 0.03em;
     color: #0E508F;
 }
+
 .footer {
     /* background: #0E508F; */
-    background:#14416E;
+    background: #14416E;
+}
+
+.text-blueFooter {
+    color: rgba(20, 65, 110, 1);
+}
+
+.footer {
+    background: rgba(225, 241, 255, 0.85);
 }
 
 .footerInfo {
     font-family: "Helvetica-light";
     font-size: 17px;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.8);
 }
 
 .footer h3 {
@@ -111,7 +126,7 @@ nav {
     font-weight: 400;
     font-size: 1.2vw;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(20, 65, 110, 1);
 }
 
 .footerSubscribeButton {
@@ -145,11 +160,16 @@ nav {
     color: #0E508F;
 }
 
-.footer li p{
+.footer li p {
     font-size: 1.2vw;
 }
+
 .footerCopyRight p {
     font-size: 1.3vw;
+}
+
+.footerCopyRight {
+    border-top: 1px solid rgba(14, 80, 143, 1)
 }
 
 /*  ############################# MOBILE ########################### */
@@ -161,26 +181,31 @@ nav {
     .upperDiv {
         justify-content: center !important;
     }
+
     .navLogIn a {
         text-align: center;
     }
+
     .headerBlogs h1 {
         font-size: 5vw;
     }
+
     .contentBlog p {
         font-size: 2.5vw;
     }
 
-.footerSubscribeButton button {
+    .footerSubscribeButton button {
         font-size: 2vw;
     }
 
     .list-unstyled a.text-light {
         font-size: 2vw;
     }
-    .footer li p{
+
+    .footer li p {
         font-size: 2vw;
     }
+
     .footerIcon i {
         font-size: 6vw;
     }
@@ -189,26 +214,33 @@ nav {
         font-size: 3vw;
     }
 }
+
 /*  ############################# MOBILE ########################### */
 @media only screen and (max-width: 576px) {
-    .navLogIn, .navAccount{
+
+    .navLogIn,
+    .navAccount {
         font-size: 3vw;
         text-align: center;
     }
 
-    .blogImg{
+    .blogImg {
         height: 40vh;
     }
+
     .footer li p {
         font-size: 3vw;
     }
+
     .footerSubscribeButton button {
         font-size: 3vw;
         font-weight: 700;
     }
+
     .list-unstyled a.text-light {
         font-size: 3.3vw;
     }
+
     .footerInfo {
         font-family: "Helvetica-light";
         font-size: 13px;

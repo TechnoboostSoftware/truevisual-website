@@ -4,10 +4,12 @@
     font-family: 'Helvetica';
     font-style: normal;
 }
+
 @font-face {
     font-family: "Helvetica-light";
     src: url("../FONTS/HelveticaLightRegular.otf");
 }
+
 .upperDiv a {
     font-style: normal;
     font-family: "Helvetica-light";
@@ -28,6 +30,7 @@ nav {
 .nav-link {
     color: white;
 }
+
 .navHover :hover {
     background: #5d86ad;
     color: white !important;
@@ -43,7 +46,8 @@ nav {
     background: white;
     color: #0E508F !important;
 }
-.dropdown-menu li a:hover .navHover{
+
+.dropdown-menu li a:hover .navHover {
     color: white !important;
 }
 
@@ -62,15 +66,18 @@ nav {
     color: #0E508F !important;
     text-align: center;
 }
-.mainBtn-1{
+
+.mainBtn-1 {
     font-weight: 700;
     font-size: 1.3vw;
     text-align: center;
     color: #FFFFFF;
 }
-.mainBtn-1:hover{
+
+.mainBtn-1:hover {
     color: white;
 }
+
 .mainContent h1 {
     font-weight: 700;
     font-size: 4vw;
@@ -148,6 +155,7 @@ nav {
 .requestAccount-2 {
     background: #0E508F;
 }
+
 .navAccount-2 {
     background: #90DD01;
     font-weight: 700;
@@ -207,13 +215,16 @@ nav {
     font-family: "Helvetica-light";
     font-size: 1.2vw;
 }
-.signInAccount{
+
+.signInAccount {
     background: white;
 }
-.signInAccount:hover{
+
+.signInAccount:hover {
     background: white;
 }
-.signInAccount a{
+
+.signInAccount a {
     color: #0E508F;
     font-weight: 700;
     font-size: 16px;
@@ -222,14 +233,21 @@ nav {
 
 .footer {
     /* background: #0E508F; */
-    background:#14416E;
+    background: #14416E;
+}
+
+.text-blueFooter {
+    color: rgba(20, 65, 110, 1);
+}
+
+.footer {
+    background: rgba(225, 241, 255, 0.85);
 }
 
 .footerInfo {
     font-family: "Helvetica-light";
     font-size: 17px;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.8);
 }
 
 .footer h3 {
@@ -241,7 +259,7 @@ nav {
     font-weight: 400;
     font-size: 1.2vw;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(20, 65, 110, 1);
 }
 
 .footerSubscribeButton {
@@ -275,13 +293,17 @@ nav {
     color: #0E508F;
 }
 
-.footer li p{
+.footer li p {
     font-size: 1.2vw;
 }
+
 .footerCopyRight p {
     font-size: 1.3vw;
 }
 
+.footerCopyRight {
+    border-top: 1px solid rgba(14, 80, 143, 1)
+}
 
 
 /*  ############################# MOBILE ########################### */
@@ -293,6 +315,7 @@ nav {
     .upperDiv {
         justify-content: center !important;
     }
+
     .navLogIn a {
         text-align: center;
     }
@@ -337,9 +360,11 @@ nav {
     .storyContent h5 {
         font-size: 3.8vw;
     }
+
     .signInAccount a {
         font-size: 14px;
     }
+
     .clients h1 {
         font-size: 5vw;
     }
@@ -352,9 +377,11 @@ nav {
         font-size: 3.7vw;
         line-height: 25px;
     }
+
     .enabling {
         font-size: 2.2vw;
     }
+
     .navAccount-2 {
         font-size: 2vw;
     }
@@ -370,7 +397,8 @@ nav {
     .projects h3 {
         font-size: 3.5vw;
     }
-    .projects p{
+
+    .projects p {
         font-size: 2.4vw;
     }
 
@@ -390,16 +418,18 @@ nav {
     }
 
 
-.footerSubscribeButton button {
+    .footerSubscribeButton button {
         font-size: 2vw;
     }
 
     .list-unstyled a.text-light {
         font-size: 2vw;
     }
-    .footer li p{
+
+    .footer li p {
         font-size: 2vw;
     }
+
     .footerIcon i {
         font-size: 6vw;
     }
@@ -408,9 +438,12 @@ nav {
         font-size: 3vw;
     }
 }
+
 /*  ############################# MOBILE ########################### */
 @media only screen and (max-width: 576px) {
-    .navLogIn, .navAccount{
+
+    .navLogIn,
+    .navAccount {
         font-size: 3vw;
         text-align: center;
     }
@@ -419,29 +452,37 @@ nav {
         font-size: 10px;
         padding: 10px 8px !important;
     }
+
     .requestAccount-2 h1 {
         font-size: 3.8vw;
         line-height: 25px;
     }
+
     .enabling {
         font-size: 3.2vw;
     }
+
     .navAccount-2 {
         font-size: 2.5vw;
     }
+
     .signInAccount a {
         font-size: 10px;
     }
+
     .footer li p {
         font-size: 3vw;
     }
+
     .footerSubscribeButton button {
         font-size: 3vw;
         font-weight: 700;
     }
+
     .list-unstyled a.text-light {
         font-size: 3.3vw;
     }
+
     .footerInfo {
         font-family: "Helvetica-light";
         font-size: 13px;
