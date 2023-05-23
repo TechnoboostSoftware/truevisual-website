@@ -69,7 +69,7 @@ nav {
 
 .mainBtn-1 {
     font-weight: 700;
-    font-size: 1.3vw;
+    font-size: 16px;
     text-align: center;
     color: #FFFFFF;
 }
@@ -246,8 +246,9 @@ nav {
 
 .footerInfo {
     font-family: "Helvetica-light";
-    font-size: 17px;
+    font-size: 16px;
     letter-spacing: 0.03em;
+    color: rgba(20, 65, 110, 1);
 }
 
 .footer h3 {
@@ -257,7 +258,7 @@ nav {
 
 .footer li a {
     font-weight: 400;
-    font-size: 1.2vw;
+    font-size: 16px;
     letter-spacing: 0.03em;
     color: rgba(20, 65, 110, 1);
 }
@@ -277,20 +278,8 @@ nav {
     outline: none;
 }
 
-.footerSubscribeButton input::placeholder {
-    color: white;
-}
-
-.footerSubscribeButton button {
-    border: none;
-    font-weight: 700;
-    font-size: 1.2vw;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-
-.footerSubscribeButton button a {
-    color: #0E508F;
+.footer li p {
+    font-size: 16px;
 }
 
 .footer li p {
@@ -298,7 +287,7 @@ nav {
 }
 
 .footerCopyRight p {
-    font-size: 1.3vw;
+    font-size: 16px;
 }
 
 .footerCopyRight {
@@ -417,26 +406,6 @@ nav {
         font-size: 3vw;
     }
 
-
-    .footerSubscribeButton button {
-        font-size: 2vw;
-    }
-
-    .list-unstyled a.text-light {
-        font-size: 2vw;
-    }
-
-    .footer li p {
-        font-size: 2vw;
-    }
-
-    .footerIcon i {
-        font-size: 6vw;
-    }
-
-    .footerCopyRight p {
-        font-size: 3vw;
-    }
 }
 
 /*  ############################# MOBILE ########################### */
@@ -470,21 +439,6 @@ nav {
         font-size: 10px;
     }
 
-    .footer li p {
-        font-size: 3vw;
-    }
 
-    .footerSubscribeButton button {
-        font-size: 3vw;
-        font-weight: 700;
-    }
 
-    .list-unstyled a.text-light {
-        font-size: 3.3vw;
-    }
-
-    .footerInfo {
-        font-family: "Helvetica-light";
-        font-size: 13px;
-    }
 }

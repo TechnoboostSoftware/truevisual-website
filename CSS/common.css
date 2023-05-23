@@ -8,6 +8,12 @@
     border-radius: 30px;
 }
 
+.mainBtn-1 {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
 
 @media only screen and (max-width: 767px) {
     .active{
